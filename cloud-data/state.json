@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16T19:31:53.204Z",
+  "updatedAt": "2026-10-16T22:47:31.202Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -267,6 +267,54 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-PBHGnRbDikH2XvajQ-a-semi-scientific-account-of-what-makes-me-happy-and-or-what",
+      "type": "update",
+      "title": "A semi-scientific account of what makes me happy and/or what happiness makes me do, etc",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-16T20:21:09.000Z",
+      "reviewedAt": "2026-10-16T22:47:30.769Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/PBHGnRbDikH2XvajQ/a-semi-scientific-account-of-what-makes-me-happy-and-or-what",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-QJ9hwjDWKyK6hJPuo-beyond-owls-subliminal-learning-can-transfer-learned",
+      "type": "update",
+      "title": "Beyond Owls: Subliminal Learning Can Transfer Learned Capabilities and Backdoors",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-16T20:00:42.000Z",
+      "reviewedAt": "2026-10-16T22:47:30.769Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/QJ9hwjDWKyK6hJPuo/beyond-owls-subliminal-learning-can-transfer-learned",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "research.google-blog-grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs",
       "type": "update",
@@ -2764,6 +2812,30 @@
       "priorWork": []
     },
     {
+      "id": "openai.com-index-stack-overflow-chatgpt-plugin",
+      "type": "update",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "originalTitle": "",
+      "category": "capabilities",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "reviewedAt": "2026-10-16T22:47:30.769Z",
+      "sourceName": "OpenAI · 研究与技术",
+      "sourceUrl": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
       "id": "openai.com-index-introducing-the-rosalind-academic-plan",
       "type": "update",
       "title": "Bringing GPT-Rosalind to academic research labs",
@@ -4040,82 +4112,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-16T19:31:52.651Z",
+      "checkedAt": "2026-10-16T22:47:30.769Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "c9e01b32-d30a-43c6-985b-107a3bd26824",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-16T22:47:31.202Z",
+      "message": "检查11个公开入口，0个未完成，3条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "7b921bad-f13f-46e4-9f11-a165a5216e5a",
       "mode": "discovery",
