@@ -652,7 +652,7 @@ function App() {
               </button>
               <button onClick={() => navigate("saved")}>本机记录</button>
               <a
-                href="https://github.com/Zhiying-Li-dot/ai-frontier-pages"
+                href="https://github.com/Zhiying-Li-dot/ai-frontier"
                 target="_blank"
                 rel="noopener noreferrer"
               >
