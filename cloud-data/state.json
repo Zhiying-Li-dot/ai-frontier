@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T04:17:08.363Z",
+  "updatedAt": "2026-10-17T05:06:12.567Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -4208,82 +4208,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-17T04:17:07.522Z",
+      "checkedAt": "2026-10-17T05:06:12.033Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "2af4a9b5-a703-4531-8ac7-a0026cc91dd4",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-17T05:06:12.567Z",
+      "message": "检查11个公开入口，0个未完成，0条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "bd3e35f3-ce8e-4a9f-a114-5c6986086810",
       "mode": "discovery",
