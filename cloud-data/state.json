@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T15:28:23.593Z",
+  "updatedAt": "2026-10-17T18:26:07.500Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -267,6 +267,102 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-iQMzXuNJ3M6EEHZyv-ai-by-default",
+      "type": "update",
+      "title": "AI by Default",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-17T17:30:53.000Z",
+      "reviewedAt": "2026-10-17T18:26:06.991Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/iQMzXuNJ3M6EEHZyv/ai-by-default",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-rpDixh35hjGmP4bCX-poking-at-the-concept-of-kegan-developmental-levels",
+      "type": "update",
+      "title": "Poking at the concept of Kegan developmental levels",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-17T17:26:46.000Z",
+      "reviewedAt": "2026-10-17T18:26:06.991Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/rpDixh35hjGmP4bCX/poking-at-the-concept-of-kegan-developmental-levels",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-3375SZNGA5dKHQMie-i-did-this-without-your-knowledge",
+      "type": "update",
+      "title": "I Did This Without Your Knowledge",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-17T16:35:07.000Z",
+      "reviewedAt": "2026-10-17T18:26:06.991Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/3375SZNGA5dKHQMie/i-did-this-without-your-knowledge",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-gAnqGRgQ2bQ4jcur6-redwoodbench-can-frontier-models-imitate-conceptual-ai",
+      "type": "update",
+      "title": "RedwoodBench: Can Frontier Models Imitate Conceptual AI Safety Researchers?",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-17T15:22:14.000Z",
+      "reviewedAt": "2026-10-17T18:26:06.991Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/gAnqGRgQ2bQ4jcur6/redwoodbench-can-frontier-models-imitate-conceptual-ai",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-7TxeC9WPc5LxpjgP8-control-questions-matter-introspection-refusal-ablation-and",
       "type": "update",
@@ -4472,82 +4568,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-17T15:28:23.056Z",
+      "checkedAt": "2026-10-17T18:26:06.991Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "c629c9c1-1c7a-4167-bed1-afb6453b81cf",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-17T18:26:07.500Z",
+      "message": "检查11个公开入口，0个未完成，4条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "0a705580-e07e-4dfd-9b7a-640ac37903c7",
       "mode": "discovery",
