@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T05:13:35.861Z",
+  "updatedAt": "2026-10-18T12:35:12.232Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -267,6 +267,102 @@
     }
   ],
   "inbox": [
+    {
+      "id": "alignmentforum.org-posts-Emp7awtxsYn8MusNq-the-alignment-problem-computer-science-meets-analytic",
+      "type": "update",
+      "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T12:18:41.000Z",
+      "reviewedAt": "2026-10-18T12:35:11.780Z",
+      "sourceName": "Alignment Forum",
+      "sourceUrl": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-Emp7awtxsYn8MusNq-the-alignment-problem-computer-science-meets-analytic",
+      "type": "update",
+      "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T12:18:41.000Z",
+      "reviewedAt": "2026-10-18T12:35:11.780Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-FZ6FPNCfqikNgbyef-chain-of-thought-for-humans",
+      "type": "update",
+      "title": "Chain of Thought For Humans",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T09:36:53.000Z",
+      "reviewedAt": "2026-10-18T12:35:11.780Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/FZ6FPNCfqikNgbyef/chain-of-thought-for-humans",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-egp2cSXbQH4qc5rgR-the-most-important-political-dimension-is-certainty",
+      "type": "update",
+      "title": "The Most Important Political Dimension is Certainty",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T05:59:32.000Z",
+      "reviewedAt": "2026-10-18T12:35:11.780Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/egp2cSXbQH4qc5rgR/the-most-important-political-dimension-is-certainty",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-qmnrZ3YFpSKfLQ59b-knowingly-wrong",
       "type": "update",
@@ -4808,82 +4904,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-18T05:13:35.299Z",
+      "checkedAt": "2026-10-18T12:35:11.780Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "deef6feb-d76e-4ba4-9f85-fb65fe330285",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-18T12:35:12.232Z",
+      "message": "检查11个公开入口，0个未完成，4条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "b0c2d06f-d8a4-4e54-8e81-b43f921d9398",
       "mode": "discovery",
