@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T18:35:53.356Z",
+  "updatedAt": "2026-10-18T22:23:36.923Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -267,6 +267,102 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-aJSdGMzgFRFBcBhGp-quick-thoughts-on-overhang-arguments",
+      "type": "update",
+      "title": "Quick Thoughts on Overhang Arguments",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T21:22:55.000Z",
+      "reviewedAt": "2026-10-18T22:23:36.380Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/aJSdGMzgFRFBcBhGp/quick-thoughts-on-overhang-arguments",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-F2feAMiHGAQgHHutg-was-the-huggingface-hacking-incident-scheming",
+      "type": "update",
+      "title": "Was the HuggingFace hacking incident scheming?",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T21:13:25.000Z",
+      "reviewedAt": "2026-10-18T22:23:36.380Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/F2feAMiHGAQgHHutg/was-the-huggingface-hacking-incident-scheming",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-AiGPEwuaNzkwgtPFK-the-snitch-reflex-can-we-force-language-models-to-be-1",
+      "type": "update",
+      "title": "The Snitch Reflex: Can We Force Language Models to Be Compulsively Honest?",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T20:16:30.000Z",
+      "reviewedAt": "2026-10-18T22:23:36.380Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/AiGPEwuaNzkwgtPFK/the-snitch-reflex-can-we-force-language-models-to-be-1",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-97HTJrxrqJqEYt6am-the-lightcone-needs-you-to-plan-a-vacation",
+      "type": "update",
+      "title": "The Lightcone Needs You To Plan a Vacation",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T20:13:44.000Z",
+      "reviewedAt": "2026-10-18T22:23:36.380Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/97HTJrxrqJqEYt6am/the-lightcone-needs-you-to-plan-a-vacation",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-oYjc7gvwDgSGAhQpZ-disproving-the-sia-disproves-the-fine-tuning-argument-and",
       "type": "update",
@@ -4952,82 +5048,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-18T18:35:52.612Z",
+      "checkedAt": "2026-10-18T22:23:36.380Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "2461147e-5325-4da9-bfe6-382ba4d1723a",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-18T22:23:36.923Z",
+      "message": "检查11个公开入口，0个未完成，4条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "97f304f6-f25c-4b0b-b610-c593f1982a82",
       "mode": "discovery",
