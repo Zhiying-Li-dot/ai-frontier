@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T12:35:12.232Z",
+  "updatedAt": "2026-10-18T18:35:53.356Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -267,6 +267,54 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-oYjc7gvwDgSGAhQpZ-disproving-the-sia-disproves-the-fine-tuning-argument-and",
+      "type": "update",
+      "title": "Disproving the SIA disproves the Fine-Tuning Argument and Boltzmann-brain-based arguments",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T16:32:51.000Z",
+      "reviewedAt": "2026-10-18T18:35:52.612Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/oYjc7gvwDgSGAhQpZ/disproving-the-sia-disproves-the-fine-tuning-argument-and",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-8S5wwiJawN9v2dbmu-preparing-for-a-cybersecurity-catastrophe",
+      "type": "update",
+      "title": "Preparing for a Cybersecurity Catastrophe",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-18T16:10:16.000Z",
+      "reviewedAt": "2026-10-18T18:35:52.612Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/8S5wwiJawN9v2dbmu/preparing-for-a-cybersecurity-catastrophe",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "alignmentforum.org-posts-Emp7awtxsYn8MusNq-the-alignment-problem-computer-science-meets-analytic",
       "type": "update",
@@ -4904,82 +4952,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:35:11.780Z",
+      "checkedAt": "2026-10-18T18:35:52.612Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "97f304f6-f25c-4b0b-b610-c593f1982a82",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-18T18:35:53.356Z",
+      "message": "检查11个公开入口，0个未完成，2条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "deef6feb-d76e-4ba4-9f85-fb65fe330285",
       "mode": "discovery",
