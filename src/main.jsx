@@ -651,6 +651,7 @@ function App() {
                 来源与运行状态
               </button>
               <button onClick={() => navigate("saved")}>本机记录</button>
+              <a href="./workbench.html">个人研究工作台 ↗</a>
               <a
                 href="https://github.com/Zhiying-Li-dot/ai-frontier"
                 target="_blank"

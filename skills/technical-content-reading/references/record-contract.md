@@ -1,6 +1,6 @@
 # Research record contract v1
 
-Skill identity: `technical-content-reading`, version `1.0.0`. This is a normative agent output contract, not a shipped runtime JSON validator. The existing static publishing workflow does not automatically invoke this skill.
+Skill identity: `technical-content-reading`, version `1.0.0`. This is the normative agent output contract. The local workbench enforces it in `local/record.ts`; the static publishing workflow still does not automatically invoke this skill.
 
 ## Neutral record
 
