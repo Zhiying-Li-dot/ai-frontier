@@ -95,3 +95,43 @@ test("工作台拒绝跨源、错误 Host、缺 token 写入和错误内容类�
     await rm(folder, { recursive: true, force: true });
   }
 });
+
+test("公开仓库直接克隆到家目录后，默认数据目录仍在仓库外；工作区内和软链接目标被拒绝", async () => {
+  const { resolvePrivateFolder } = await import("../local/server.ts");
+  const { mkdir, symlink, realpath } = await import("node:fs/promises");
+  const home = await mkdtemp(join(tmpdir(), "frontier-clone-layout-"));
+  try {
+    const app = join(home, "ai-frontier");
+    await mkdir(join(app, ".git"), { recursive: true });
+    const normal = join(home, ".local/share/ai-frontier");
+    assert.equal(
+      await resolvePrivateFolder(app, normal),
+      join(await realpath(home), ".local/share/ai-frontier"),
+    );
+    await assert.rejects(
+      () => resolvePrivateFolder(app, join(app, "personal-data")),
+      /工作区/,
+    );
+    await assert.rejects(
+      () => resolvePrivateFolder(app, join(app, "..private")),
+      /工作区/,
+    );
+    await mkdir(join(app, "private-target"));
+    await symlink(join(app, "private-target"), join(home, "linked-data"));
+    await assert.rejects(
+      () => resolvePrivateFolder(app, join(home, "linked-data")),
+      /工作区/,
+    );
+    await mkdir(join(app, "pages-site"));
+    await assert.rejects(
+      () =>
+        resolvePrivateFolder(
+          join(app, "pages-site"),
+          join(app, "private-data"),
+        ),
+      /工作区/,
+    );
+  } finally {
+    await rm(home, { recursive: true, force: true });
+  }
+});

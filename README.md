@@ -49,7 +49,7 @@ npm run build
 npm run workbench
 ```
 
-需要 **Node 24+、已安装且已登录的 Codex CLI**（参见[官方非交互模式说明](https://developers.openai.com/codex/noninteractive)）。先在终端运行 `codex login status` 检查。PDF 文字提取另需 Poppler 的 `pdfinfo`、`pdftotext`；未安装时会显示失败，不生成假结果。打开终端显示的 `http://127.0.0.1:4318/`，按 Ctrl+C 停止。本机地址只对这台电脑有效，朋友应在自己的电脑启动。
+需要 **Node 24+、已安装且已登录的 Codex CLI**（参见[官方非交互模式说明](https://developers.openai.com/codex/noninteractive)）。本轮实测 Codex CLI 0.162.1；先在终端运行 `codex login status` 检查。PDF 文字提取另需 Poppler 的 `pdfinfo`、`pdftotext`；未安装时会显示失败，不生成假结果。打开终端显示的 `http://127.0.0.1:4318/`，按 Ctrl+C 停止。本机地址只对这台电脑有效，朋友应在自己的电脑启动。
 
 工作台读取公共雷达候选，也允许粘贴来源白名单内的公开原文。一次只处理一篇，抓取后加载阅读 skill，生成中立记录并严格验证；每个北京时间自然日最多 8 次模型调用，失败计入，无自动重试，额度跨重启保留。使用现有 Codex 账号额度，受账号服务和用量限制约束；不是无限免费模型服务，不会把登录凭据传给 GitHub。
 

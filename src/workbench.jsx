@@ -75,8 +75,11 @@ function App() {
     return d;
   }, []);
   useEffect(() => {
+    if (window.location.hostname !== "127.0.0.1") {
+      setOffline(true);
+      return;
+    }
     refresh().catch(() => setOffline(true));
-    if (window.location.hostname !== "127.0.0.1") return;
     const t = setInterval(() => refresh().catch(() => setOffline(true)), 4000);
     return () => clearInterval(t);
   }, [refresh]);

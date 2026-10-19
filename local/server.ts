@@ -1,7 +1,15 @@
 import { createServer } from "node:http";
 import { randomBytes } from "node:crypto";
-import { readFile, realpath } from "node:fs/promises";
-import { join, resolve, relative, isAbsolute } from "node:path";
+import { readFile, realpath, lstat } from "node:fs/promises";
+import {
+  join,
+  resolve,
+  relative,
+  isAbsolute,
+  dirname,
+  basename,
+  sep,
+} from "node:path";
 import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { FrontierAgent } from "./agent.ts";
@@ -30,16 +38,53 @@ function candidatesFrom(raw: any) {
       category: String(x.category || ""),
     }));
 }
+// The public standalone clone and nested development source have different roots.
+export async function resolvePrivateFolder(appRoot: string, requested: string) {
+  const start = await realpath(appRoot);
+  let workspace = start;
+  while (true) {
+    try {
+      await lstat(join(workspace, ".git"));
+      break;
+    } catch (error: any) {
+      if (error.code !== "ENOENT") throw error;
+    }
+    const parent = dirname(workspace);
+    if (parent === workspace) {
+      workspace = start;
+      break;
+    }
+    workspace = parent;
+  }
+  let ancestor = resolve(requested);
+  const suffix: string[] = [];
+  while (true) {
+    try {
+      ancestor = await realpath(ancestor);
+      break;
+    } catch (error: any) {
+      if (error.code !== "ENOENT") throw error;
+    }
+    suffix.unshift(basename(ancestor));
+    ancestor = dirname(ancestor);
+  }
+  const folder = resolve(ancestor, ...suffix);
+  const rel = relative(workspace, folder);
+  if (
+    !rel ||
+    (rel !== ".." && !rel.startsWith(".." + sep) && !isAbsolute(rel))
+  ) {
+    throw Error("本机数据目录必须位于 Git 工作区之外");
+  }
+  return folder;
+}
 export async function createWorkbench(
   options: { folder?: string; port?: number; agent?: FrontierAgent } = {},
 ) {
-  const folder = resolve(
+  const folder = await resolvePrivateFolder(
+    root,
     options.folder || join(homedir(), ".local", "share", "ai-frontier"),
   );
-  const repo = await realpath(resolve(root, ".."));
-  const rel = relative(repo, folder);
-  if (!rel || (!rel.startsWith("..") && !isAbsolute(rel)))
-    throw Error("本机数据目录必须位于 Git 工作区之外");
   const agent = options.agent || new FrontierAgent(folder);
   await agent.initialize();
   const sessionToken = randomBytes(32).toString("hex");
