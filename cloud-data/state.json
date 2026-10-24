@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T18:45:41.175Z",
+  "updatedAt": "2026-10-24T22:26:14.871Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -497,6 +497,54 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-J7kggmxsR7urePWJt-free-speech-is-the-wrong-problem",
+      "type": "update",
+      "title": "Free Speech Is The Wrong Problem",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T20:52:56.000Z",
+      "reviewedAt": "2026-10-24T22:26:14.396Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/J7kggmxsR7urePWJt/free-speech-is-the-wrong-problem",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-7cmQGtJu4nXsi6pPu-an-attempt-at-top-down-interpretability",
+      "type": "update",
+      "title": "An Attempt at Top-down Interpretability",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T19:23:34.000Z",
+      "reviewedAt": "2026-10-24T22:26:14.396Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/7cmQGtJu4nXsi6pPu/an-attempt-at-top-down-interpretability",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-pYLdLCdu4Xh73LiWv-epistemic-mapping-101-what-to-ask-in-order-to-understand-how",
       "type": "update",
@@ -17638,82 +17686,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-24T18:45:40.574Z",
+      "checkedAt": "2026-10-24T22:26:14.396Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "798f3994-d845-4a0c-93aa-7aace364d79a",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-24T22:26:14.871Z",
+      "message": "检查11个公开入口，0个未完成，2条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "8e398656-dc3a-44e5-8b46-86a33c454689",
       "mode": "discovery",
@@ -18055,13 +18110,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-16T08:15:38.025Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "8643f88a-6cb5-4c8e-b828-27a1cb6fae30",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-16T07:11:16.521Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
