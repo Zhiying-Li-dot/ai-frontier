@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T05:08:37.977Z",
+  "updatedAt": "2026-10-24T12:38:12.620Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -497,6 +497,126 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-ZiCvwLKreShtXuyiB-slower-animated-diagrams",
+      "type": "update",
+      "title": "Slower Animated Diagrams",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T10:57:35.000Z",
+      "reviewedAt": "2026-10-24T12:38:12.016Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/ZiCvwLKreShtXuyiB/slower-animated-diagrams",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-JFYvJqMaLw9nhfrur-fermi-poker",
+      "type": "update",
+      "title": "Fermi Poker",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T09:58:19.000Z",
+      "reviewedAt": "2026-10-24T12:38:12.016Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/JFYvJqMaLw9nhfrur/fermi-poker",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-sEfY7bRjQYsu2A8ux-lm-self-models-are-built-from-indirect-sources",
+      "type": "update",
+      "title": "LM self-models are built from indirect sources",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T09:17:49.000Z",
+      "reviewedAt": "2026-10-24T12:38:12.016Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/sEfY7bRjQYsu2A8ux/lm-self-models-are-built-from-indirect-sources",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-nWiPLEgaXdAQNwXBd-patching-reward-hacks-won-t-fix-reward-hacking",
+      "type": "update",
+      "title": "Patching reward hacks won’t fix reward hacking",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T09:15:09.000Z",
+      "reviewedAt": "2026-10-24T12:38:12.016Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/nWiPLEgaXdAQNwXBd/patching-reward-hacks-won-t-fix-reward-hacking",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-LBKjnyKDEwEJ45Wjf-self-reward-can-elicit-diverse-model-personas",
+      "type": "update",
+      "title": "Self-reward can elicit diverse model personas",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T06:58:58.000Z",
+      "reviewedAt": "2026-10-24T12:38:12.016Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/LBKjnyKDEwEJ45Wjf/self-reward-can-elicit-diverse-model-personas",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-MgD6mDeGzydo7Xgnb-societal-impacts-research-on-ai-sira",
       "type": "update",
@@ -17494,82 +17614,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-24T05:08:37.392Z",
+      "checkedAt": "2026-10-24T12:38:12.016Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "e0383def-f2b0-48fd-b364-cb95662d051f",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-24T12:38:12.620Z",
+      "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "031b4fbf-f9b8-42ef-bc5a-8190a250d8e7",
       "mode": "discovery",
@@ -17912,13 +18039,6 @@
       "status": "succeeded",
       "at": "2026-10-16T07:09:52.257Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "890bdc4c-da38-45ba-9908-c77d029bac19",
-      "mode": "daily",
-      "status": "blocked",
-      "at": "2026-10-16T06:07:17.280Z",
-      "message": "模型密钥或PDF视觉模型未配置，仅保留来源发现，未执行自动精读。"
     }
   ],
   "budget": {
