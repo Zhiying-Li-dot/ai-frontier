@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T13:09:33.551Z",
+  "updatedAt": "2026-10-25T18:58:28.274Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -497,6 +497,54 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-ChixHL6AcaRgeHkp9-from-overeliciting-to-undereliciting-llm-propensities-in",
+      "type": "update",
+      "title": "From overeliciting to undereliciting LLM propensities in just a few months",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T18:01:57.000Z",
+      "reviewedAt": "2026-10-25T18:58:27.640Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/ChixHL6AcaRgeHkp9/from-overeliciting-to-undereliciting-llm-propensities-in",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-53XwjN2gAKzjKCp5s-tracing-subliminal-learning-through-pretraining",
+      "type": "update",
+      "title": "Tracing Subliminal Learning Through Pretraining",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T17:51:53.000Z",
+      "reviewedAt": "2026-10-25T18:58:27.640Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/53XwjN2gAKzjKCp5s/tracing-subliminal-learning-through-pretraining",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-drMv4SM2gaxk3oz3m-is-gpt-2xl-already-clean",
       "type": "update",
@@ -17854,82 +17902,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-25T13:09:32.813Z",
+      "checkedAt": "2026-10-25T18:58:27.640Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "2a583550-78bd-4c8e-a8b1-8bf79228e389",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-25T18:58:28.274Z",
+      "message": "检查11个公开入口，0个未完成，2条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "d3d4cb8d-26bb-4440-b97e-a033185c53c5",
       "mode": "discovery",
@@ -18272,13 +18327,6 @@
       "status": "succeeded",
       "at": "2026-10-16T22:47:31.202Z",
       "message": "检查11个公开入口，0个未完成，3条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "7b921bad-f13f-46e4-9f11-a165a5216e5a",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-16T19:31:53.204Z",
-      "message": "检查11个公开入口，0个未完成，17条新候选。全文不足的内容不出刊。"
     }
   ],
   "budget": {
