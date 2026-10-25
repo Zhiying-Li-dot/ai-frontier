@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T05:24:41.330Z",
+  "updatedAt": "2026-10-25T13:09:33.551Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -497,6 +497,102 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-drMv4SM2gaxk3oz3m-is-gpt-2xl-already-clean",
+      "type": "update",
+      "title": "Is GPT 2XL already clean?",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T10:06:37.000Z",
+      "reviewedAt": "2026-10-25T13:09:32.813Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/drMv4SM2gaxk3oz3m/is-gpt-2xl-already-clean",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "alignmentforum.org-posts-dmYP7DS3ERyXGAYe6-setting-the-scene-public-v1-october-25",
+      "type": "update",
+      "title": "Setting the Scene (Public v1; October 25)",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T07:52:23.000Z",
+      "reviewedAt": "2026-10-25T13:09:32.813Z",
+      "sourceName": "Alignment Forum",
+      "sourceUrl": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-dmYP7DS3ERyXGAYe6-setting-the-scene-public-v1-october-25",
+      "type": "update",
+      "title": "Setting the Scene (Public v1; October 25)",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T07:52:23.000Z",
+      "reviewedAt": "2026-10-25T13:09:32.813Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-ciZ4YxZeY4M89SLT2-mech-interp-is-a-la-croix-of-actual-safety-research",
+      "type": "update",
+      "title": "Mech Interp is a La Croix of Actual Safety Research",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T05:57:57.000Z",
+      "reviewedAt": "2026-10-25T13:09:32.813Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/ciZ4YxZeY4M89SLT2/mech-interp-is-a-la-croix-of-actual-safety-research",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-ybhJbJK3XTXNwyBy5-relevance-realization-as-human-comparative-advantage",
       "type": "update",
@@ -17758,82 +17854,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-25T05:24:40.940Z",
+      "checkedAt": "2026-10-25T13:09:32.813Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "d3d4cb8d-26bb-4440-b97e-a033185c53c5",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-25T13:09:33.551Z",
+      "message": "检查11个公开入口，0个未完成，4条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "93e6d0a8-9ac2-498e-b4d8-7b1e8ba5f55c",
       "mode": "discovery",
@@ -18176,13 +18279,6 @@
       "status": "succeeded",
       "at": "2026-10-16T19:31:53.204Z",
       "message": "检查11个公开入口，0个未完成，17条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "66687d4a-351a-443d-a373-1e5a723446ac",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-16T14:22:33.626Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
   "budget": {
