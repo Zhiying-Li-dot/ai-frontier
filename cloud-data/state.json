@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T22:26:14.871Z",
+  "updatedAt": "2026-10-25T04:32:27.584Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -497,6 +497,78 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-ybhJbJK3XTXNwyBy5-relevance-realization-as-human-comparative-advantage",
+      "type": "update",
+      "title": "Relevance Realization as Human Comparative Advantage",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T01:55:30.000Z",
+      "reviewedAt": "2026-10-25T04:32:27.065Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/ybhJbJK3XTXNwyBy5/relevance-realization-as-human-comparative-advantage",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-2wbW2WY3bP9Jzn4R5-control-monitors-need-alignment-assessments-too",
+      "type": "update",
+      "title": "Control monitors need alignment assessments too",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T23:57:07.000Z",
+      "reviewedAt": "2026-10-25T04:32:27.065Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/2wbW2WY3bP9Jzn4R5/control-monitors-need-alignment-assessments-too",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-5tyzgTLnNn8qB9rev-shadow-computation-threatens-cot-monitorability",
+      "type": "update",
+      "title": "Shadow Computation Threatens CoT Monitorability",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-24T23:12:33.000Z",
+      "reviewedAt": "2026-10-25T04:32:27.065Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/5tyzgTLnNn8qB9rev/shadow-computation-threatens-cot-monitorability",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-J7kggmxsR7urePWJt-free-speech-is-the-wrong-problem",
       "type": "update",
@@ -17686,82 +17758,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
-      "count": 15,
+      "checkedAt": "2026-10-25T04:32:27.065Z",
+      "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-24T22:26:14.396Z",
+      "checkedAt": "2026-10-25T04:32:27.065Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "3085a296-8fd8-481f-aeea-370d41fdd312",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-25T04:32:27.584Z",
+      "message": "检查11个公开入口，0个未完成，3条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "798f3994-d845-4a0c-93aa-7aace364d79a",
       "mode": "discovery",
@@ -18103,13 +18182,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-16T13:12:40.738Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "508be9f2-fe18-45df-b710-8f662101c0a0",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-16T08:15:38.025Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
