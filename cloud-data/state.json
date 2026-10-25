@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T18:58:28.274Z",
+  "updatedAt": "2026-10-25T22:30:42.276Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -497,6 +497,102 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-qjsdvaaPC624Eropw-the-ai-buildout-is-the-largest-bet-in-the-history-of",
+      "type": "update",
+      "title": "The AI buildout is the largest bet in the history of capitalism.",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T21:28:53.000Z",
+      "reviewedAt": "2026-10-25T22:30:41.658Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/qjsdvaaPC624Eropw/the-ai-buildout-is-the-largest-bet-in-the-history-of",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-dbBeff68R4toeegyw-different-eval-awareness-may-track-different-graders",
+      "type": "update",
+      "title": "Different eval awareness may track different graders",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T20:32:01.000Z",
+      "reviewedAt": "2026-10-25T22:30:41.658Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/dbBeff68R4toeegyw/different-eval-awareness-may-track-different-graders",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-Y3G26fHXYM3SKYEHh-san-francisco-state-university-in-twilight",
+      "type": "update",
+      "title": "San Francisco State University in Twilight",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T20:27:54.000Z",
+      "reviewedAt": "2026-10-25T22:30:41.658Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/Y3G26fHXYM3SKYEHh/san-francisco-state-university-in-twilight",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-rgwJjfKHGmArnqZsv-personal-experience-does-not-a-study-of-china-make",
+      "type": "update",
+      "title": "Personal Experience Does Not A Study of China Make",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T20:06:19.000Z",
+      "reviewedAt": "2026-10-25T22:30:41.658Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/rgwJjfKHGmArnqZsv/personal-experience-does-not-a-study-of-china-make",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-ChixHL6AcaRgeHkp9-from-overeliciting-to-undereliciting-llm-propensities-in",
       "type": "update",
@@ -17902,82 +17998,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-25T18:58:27.640Z",
+      "checkedAt": "2026-10-25T22:30:41.658Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "b00cda07-afc9-44e2-8596-f4fc2931305f",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-25T22:30:42.276Z",
+      "message": "检查11个公开入口，0个未完成，4条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "2a583550-78bd-4c8e-a8b1-8bf79228e389",
       "mode": "discovery",
@@ -18320,13 +18423,6 @@
       "status": "succeeded",
       "at": "2026-10-17T04:17:08.363Z",
       "message": "检查11个公开入口，0个未完成，4条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "c9e01b32-d30a-43c6-985b-107a3bd26824",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-16T22:47:31.202Z",
-      "message": "检查11个公开入口，0个未完成，3条新候选。全文不足的内容不出刊。"
     }
   ],
   "budget": {
