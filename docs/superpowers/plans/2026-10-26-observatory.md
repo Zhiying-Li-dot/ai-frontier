@@ -1,6 +1,6 @@
 # 主题观察台 Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** 发布基于真实快照的可探索主题首页。
 **Architecture:** lib/observatory.ts 负责去重、主题匹配、时间筛选与统计；src/observatory.jsx 负责展示；main.jsx 接入统一筛选和候选分批展示。
@@ -23,15 +23,21 @@
 ### Task 1: 数据与筛选
 **Files:** Create lib/observatory.ts; tests/observatory.test.ts.
 **Interfaces:** topics 常量；matchesTopic(item, topic)；withinWindow(item, days, now)；uniqueMaterials(items, pending)；observe(items, pending, now) 返回 entries/topics/days。
-- [ ] 写去重、关键词多主题与其他、时间窗口和上海日期统计测试。
-- [ ] 执行 node --experimental-strip-types --test tests/observatory.test.ts，预期模块缺失失败。
-- [ ] 实现上述纯函数。
-- [ ] 同一命令全部通过，提交函数与测试。
+- [x] 写去重、关键词多主题与其他、时间窗口和上海日期统计测试。
+- [x] 执行 node --experimental-strip-types --test tests/observatory.test.ts，预期模块缺失失败。
+- [x] 实现上述纯函数。
+- [x] 同一命令全部通过，提交函数与测试。
 
 ### Task 2: 页面与交互
 **Files:** Create src/observatory.jsx; tests/browser/observatory.test.ts. Modify src/main.jsx; src/styles.css; README.md.
 **Interfaces:** Observatory({data, topic, onTopic}) 使用 Task 1 observe；主页面同时筛选已核查与候选并每批显示 20 条。
-- [ ] 写浏览器测试：主题筛选、分页重置、空结果、阅读直达、手机无横向溢出和键盘选择。
-- [ ] 构建并运行新测试，预期找不到观察台和主题按钮失败。
-- [ ] 实现观察台、组合筛选、候选分页与响应式样式。
-- [ ] 完整单元与浏览器检查通过；检查桌面和手机截图；更新说明并提交。
+- [x] 写浏览器测试：主题筛选、分页重置、空结果、阅读直达、手机无横向溢出和键盘选择。
+- [x] 构建并运行新测试，预期找不到观察台和主题按钮失败。
+- [x] 实现观察台、组合筛选、候选分页与响应式样式。
+- [x] 完整单元与浏览器检查通过；检查桌面和手机截图；更新说明并提交。
+
+## 验证记录
+
+2026-10-26：新主题测试4项、公开界面浏览器测试3项均先观察失败后通过；完整单元28/28、浏览器12/12、Postman来源集成8/8通过。1440px、1100px与390px已检查；最终只读代码与研究内容审查无Critical/Important。发布沿用已有GitHub Pages。
+
+旧工作台状态请求无超时的低优先级问题留待后续；本轮未更改其请求超时策略。

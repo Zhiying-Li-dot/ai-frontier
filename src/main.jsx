@@ -16,6 +16,8 @@ import {
   isSafeSourceUrl,
   validateResearchItem,
 } from "../lib/research.ts";
+import { Observatory } from "./observatory.jsx";
+import { topics, matchesTopic, withinWindow, uniqueMaterials } from "../lib/observatory.ts";
 import { feedSources } from "../lib/feeds.ts";
 import { PaperReader } from "./paper-reader";
 import { readLocal, writeLocal, clearLocal } from "./storage.js";
@@ -50,7 +52,9 @@ function App() {
     [error, setError] = useState(""),
     [query, setQuery] = useState(""),
     [category, setCategory] = useState("all"),
-    [recent, setRecent] = useState(false),
+    [windowDays, setWindowDays] = useState(0),
+    [topic, setTopic] = useState("all"),
+    [visibleCount, setVisibleCount] = useState(20),
     [states, setStates] = useState(() => {
       try {
         return readLocal(window.localStorage);
@@ -155,25 +159,19 @@ function App() {
       setToast("此浏览器的阅读记录已清除");
     } else setToast("清除未完成，请检查浏览器存储权限");
   }
-  const filtered = useMemo(
-    () =>
-      filterItems(data?.items || [], {
-        query,
-        category,
-        publishedSince: recent
-          ? new Date(Date.now() - 14 * 86400000).toISOString()
-          : undefined,
-      }),
-    [data, query, category, recent],
-  );
-  const pending = (data?.pending || []).filter(
-    (x) =>
-      (category === "all" || x.category === category) &&
-      `${x.title} ${x.originalTitle} ${x.sourceName}`
-        .toLowerCase()
-        .includes(query.toLowerCase()) &&
-      (!recent || Date.parse(x.publishedAt) >= Date.now() - 14 * 86400000),
-  );
+  useEffect(() => { setVisibleCount(20); }, [query, category, topic, windowDays, data, route.view]);
+  const snapshotTime = data ? Date.parse(data.updatedAt) : Date.now();
+  const materials = useMemo(() => uniqueMaterials(data?.items || [], data?.pending || []), [data]);
+  const readyIds = useMemo(() => new Set((data?.items || []).map(x => x.id)), [data]);
+  const filtered = useMemo(() => filterItems(data?.items || [], { query, category })
+    .filter(x => matchesTopic(x, topic) && withinWindow(x, windowDays, snapshotTime)),
+    [data, query, category, topic, windowDays, snapshotTime]);
+  const pending = materials.filter(x => !readyIds.has(x.id) &&
+    (category === "all" || x.category === category) &&
+    `${x.title} ${x.originalTitle || ""} ${x.sourceName}`.toLowerCase().includes(query.trim().toLowerCase()) &&
+    matchesTopic(x, topic) && withinWindow(x, windowDays, snapshotTime));
+  const hasFilters = query || category !== "all" || topic !== "all" || windowDays;
+  function resetFilters() { setQuery(""); setCategory("all"); setTopic("all"); setWindowDays(0); }
   const selected = data?.items.find((x) => x.id === route.paper),
     focus = filtered.find((x) => x.type === "paper") || filtered[0];
   const save = (item) => (
@@ -246,7 +244,7 @@ function App() {
       </p>
       {pending.length ? (
         <div>
-          {pending.slice(0, 40).map((item) => (
+          {pending.slice(0, visibleCount).map((item) => (
             <article className="pending-entry" key={item.id}>
               <a
                 href={item.sourceUrl}
@@ -260,6 +258,10 @@ function App() {
               </small>
             </article>
           ))}
+          <div className="queue-pagination">
+            <span aria-live="polite">当前显示 {Math.min(visibleCount, pending.length)} / {pending.length} 条</span>
+            {visibleCount < pending.length && <button className="button" onClick={() => setVisibleCount(n => n + 20)}>加载更多线索 <ArrowRight size={15}/></button>}
+          </div>
         </div>
       ) : (
         <p className="muted">暂无符合当前筛选条件的新候选。</p>
@@ -363,10 +365,11 @@ function App() {
                     FRONTIER OBSERVATORY / PUBLIC EDITION
                   </div>
                   <div className="issue-note">
-                    来源检查 {date(data.updatedAt, true)} · 每 4 小时计划更新
+                    快照更新 {date(data.updatedAt, true)} · 每 4 小时计划更新
                   </div>
                 </div>
               </div>
+              {route.view === "daily" && <Observatory data={data} topic={topic} onTopic={value => { setTopic(value); document.querySelector(".search-field")?.scrollIntoView({block:"start"}); }}/>}
               <div className="search-field">
                 <Search size={18} />
                 <input
@@ -400,13 +403,16 @@ function App() {
                     ),
                   )}
                 </div>
-                <button
-                  className={`filter ${recent ? "active" : ""}`}
-                  onClick={() => setRecent(!recent)}
-                >
-                  原文近 14 天 {recent ? "✓" : ""}
-                </button>
+                <label className="time-window">原文时间
+                  <select aria-label="原文时间范围" value={windowDays} onChange={e => setWindowDays(Number(e.target.value))}>
+                    <option value={0}>全部时间</option><option value={3}>近 72 小时</option><option value={7}>近 7 天</option><option value={14}>近 14 天</option>
+                  </select>
+                </label>
               </div>
+              <div className="topic-filterbar" aria-label="研究主题">
+                {[{id:"all",label:"全部主题"}, ...topics].map(t => <button key={t.id} className={`topic-chip ${topic === t.id ? "active" : ""}`} aria-pressed={topic === t.id} onClick={() => setTopic(t.id)}>{t.label}</button>)}
+              </div>
+              {hasFilters ? <div className="filter-result" role="status"><span>筛选结果 · {filtered.length} 项已核查 · {pending.length} 条待精读{windowDays ? " · 时间以最近快照为准" : ""}</span><button className="text-button" onClick={resetFilters}>重置筛选</button></div> : null}
               {route.view === "daily" && (
                 <>
                   {focus ? (
