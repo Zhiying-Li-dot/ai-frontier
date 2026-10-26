@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "reviewedAt": "2026-10-22T15:36:30Z",
+  "reviewerType": "AI-assisted-source-review",
+  "sourceUrl": "https://arxiv.org/abs/2610.28909v1",
+  "pdfUrl": "https://arxiv.org/pdf/2610.28909v1",
+  "pdfSha256": "8350416179d1a2e54066ee3bd36446eec1eb7fb9969aba5dc6749471cc3aeb95",
+  "pages": 8,
+  "visualPagesInspected": [
+    4,
+    5,
+    6
+  ],
+  "textScope": "正文pp.1–7和五张表；无图、无附录；参考文献仅作来源内信息。",
+  "checks": [
+    {
+      "topic": "端到端与局部速度",
+      "result": "表1 dFast 11.97秒、dFull 11.89秒；dFast没有额外端到端提速。独立探针为100个合成问题，每项6子查询，与主实验4子查询区分。"
+    },
+    {
+      "topic": "质量等效",
+      "result": "配对区间跨零仅表示未显示差异，不能据此证明等效。"
+    },
+    {
+      "topic": "来源支持审计",
+      "result": "26/50主张未被存储来源确立，不等于26条事实错误；模式样本3/3/4不支持模式间比较。"
+    },
+    {
+      "topic": "复现入口",
+      "result": "作者README区分默认流程与论文控制配置；只核对文档，未运行代码。"
+    }
+  ],
+  "independentExperimentPerformed": false,
+  "sourceCodeExecuted": false,
+  "decision": "review-ready",
+  "reason": "可进入发布事实复核；保留硬件、单模型对、分母缺失与未复现限制。"
+}

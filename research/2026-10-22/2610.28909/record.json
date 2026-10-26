@@ -1,0 +1,360 @@
+{
+  "schemaVersion": "1.0",
+  "skill": {
+    "id": "technical-content-reading",
+    "version": "1.0.0"
+  },
+  "source": {
+    "id": "arxiv:2610.28909v1",
+    "kind": "paper",
+    "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+    "version": "v1;sha256:8350416179d1a2e54066ee3bd36446eec1eb7fb9969aba5dc6749471cc3aeb95",
+    "scope": "full",
+    "locatorMode": "page",
+    "synthetic": false,
+    "materials": [
+      {
+        "id": "body",
+        "kind": "body",
+        "availability": "present",
+        "inspection": "read",
+        "locator": "PDF pp.1–7, §§1–5.6及Limitations",
+        "reason": "读取正文文字，渲染并查看pp.4–6以交叉核对实验配置与表格。"
+      },
+      {
+        "id": "table-1",
+        "kind": "table",
+        "availability": "present",
+        "inspection": "read",
+        "locator": "PDF p.4, Table 1",
+        "reason": "已查看页图与提取文字，核对单位、条件和脚注。"
+      },
+      {
+        "id": "table-2",
+        "kind": "table",
+        "availability": "present",
+        "inspection": "read",
+        "locator": "PDF p.5, Table 2",
+        "reason": "已查看页图与提取文字，核对单位、条件和脚注。"
+      },
+      {
+        "id": "table-3",
+        "kind": "table",
+        "availability": "present",
+        "inspection": "read",
+        "locator": "PDF p.5, Table 3",
+        "reason": "已查看页图与提取文字，核对单位、条件和脚注。"
+      },
+      {
+        "id": "table-4",
+        "kind": "table",
+        "availability": "present",
+        "inspection": "read",
+        "locator": "PDF p.5, Table 4",
+        "reason": "已查看页图与提取文字，核对单位、条件和脚注。"
+      },
+      {
+        "id": "table-5",
+        "kind": "table",
+        "availability": "present",
+        "inspection": "read",
+        "locator": "PDF p.6, Table 5",
+        "reason": "已查看页图与提取文字，核对单位、条件和脚注。"
+      },
+      {
+        "id": "figures",
+        "kind": "figure",
+        "availability": "not-applicable",
+        "inspection": "not-applicable",
+        "locator": null,
+        "reason": "本版本8页PDF没有编号图；核心结果用五张表呈现。"
+      },
+      {
+        "id": "appendices",
+        "kind": "appendix",
+        "availability": "not-applicable",
+        "inspection": "not-applicable",
+        "locator": null,
+        "reason": "本版本在局限和致谢后进入参考文献，未附附录。"
+      },
+      {
+        "id": "code",
+        "kind": "code",
+        "availability": "missing",
+        "inspection": "unread",
+        "locator": "https://github.com/alanrbtx/DiffResearch",
+        "reason": "核对了公开仓库首页和README，未取得固定提交的代码作审查。"
+      },
+      {
+        "id": "data",
+        "kind": "data",
+        "availability": "missing",
+        "inspection": "unread",
+        "locator": "PDF §4; repository early_diffusion/",
+        "reason": "未取得逐任务运行、评分与审计原始数据；不能独立重算端到端结果。"
+      }
+    ]
+  },
+  "readingQuestion": "扩散语言模型能否降低深度研究流程耗时，提速是否同时保留证据支持质量？",
+  "problem": {
+    "task": "在相同研究流程中比较扩散与自回归骨干，并检查提前读取扩散中间状态的作用。",
+    "comparison": "dFull、dFast与AR；论文标识为DiffusionGemma-26B-A4B-it与Gemma-4-26B-A4B-it，另有不同模型的榜单快照。",
+    "successMeasure": "端到端与分阶段耗时、RACE评分、分语言诊断、来源支持审计；三类指标不等价。",
+    "assumptions": [
+      "100项Deep Research Bench任务，中英文各50项；H200环境。",
+      "控制实验仅用Semantic Scholar，每问题4个子查询、每查询2条结果，每秒1次检索；并行检索并未评测。",
+      "分阶段统计并非同一分母，Writer仅计到达写作阶段的任务；模型对仅一组。"
+    ]
+  },
+  "mechanism": {
+    "inputs": [
+      "研究问题、规划提示、检索来源以及可替换的语言模型骨干。"
+    ],
+    "steps": [
+      "意图分类、问题改写和规划形成检索计划。",
+      "生成子查询，检索来源后合成报告；可选检查器评估覆盖和引文。",
+      "dFull等生成结束后解析JSON；dFast在中间去噪状态中遇到指定数量的非空子查询即提前返回。",
+      "最终报告仍完整生成；控制实验中的检索限速不因dFast而改变。"
+    ],
+    "outputs": [
+      "带引用的报告、阶段耗时、质量诊断与子查询。"
+    ],
+    "unresolved": [
+      "论文未充分展示各模式逐阶段成功数，无法从分阶段均值重建全部任务路径。",
+      "未核查模型训练差异与精确运行版本，不能把所有差异唯一归因于解码机制。"
+    ]
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "作者在限定配置下报告dFull相对AR的平均端到端耗时约缩短为六分之一。",
+      "provenance": "source-report",
+      "evidenceIds": [
+        "e1"
+      ],
+      "conditions": [
+        "100任务，H200，固定检索配置。"
+      ],
+      "supportStatus": "supported-in-source",
+      "unsupportedInterpretation": "任意模型、消费级硬件或真实全网研究都能获得6倍提速。"
+    },
+    {
+      "id": "c2",
+      "text": "dFast的子查询阶段更快，但本实验未比dFull进一步降低端到端耗时。",
+      "provenance": "source-report",
+      "evidenceIds": [
+        "e1",
+        "e2"
+      ],
+      "conditions": [
+        "独立探针100个合成研究问题，每问题要求6条子查询；不同于主实验4条。"
+      ],
+      "supportStatus": "supported-in-source",
+      "unsupportedInterpretation": "可将约6倍端到端提速与1.99倍局部提速相乘。"
+    },
+    {
+      "id": "c3",
+      "text": "作者的小样本审计发现多数抽样主张未被存储来源包完整支持。",
+      "provenance": "source-report",
+      "evidenceIds": [
+        "e3"
+      ],
+      "conditions": [
+        "10份报告、50条主张；不是对全部100任务或开放世界真假的评估。"
+      ],
+      "supportStatus": "supported-in-source",
+      "unsupportedInterpretation": "52%的主张已被证明是事实错误，或某种解码方式更容易产生幻觉。"
+    },
+    {
+      "id": "c4",
+      "text": "现有质量比较不足以证明普遍等效或不劣，RACE接近也不能代替来源核查。",
+      "provenance": "analysis",
+      "evidenceIds": [
+        "e3",
+        "e4"
+      ],
+      "conditions": [
+        "配对差异区间包含零，且论文未给出不劣界限。"
+      ],
+      "supportStatus": "supported-in-source",
+      "unsupportedInterpretation": "扩散模型一定比自回归更差或更好。"
+    },
+    {
+      "id": "c5",
+      "text": "作者仓库README明确指出，默认公开运行流程仍需额外配置才能匹配论文控制实验。",
+      "provenance": "external-fact",
+      "evidenceIds": [
+        "e5"
+      ],
+      "conditions": [
+        "检查日期2026-10-22，仅README文档核对，未运行。"
+      ],
+      "supportStatus": "supported-in-source",
+      "unsupportedInterpretation": "克隆后执行默认命令就复现了论文六倍提速。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "locator": "PDF p.4, Table 1; p.5, Table 2",
+      "observation": "AR/dFull/dFast端到端均值为71.45/11.89/11.97秒；p90为111.87/16.13/16.33秒。Writer的分母仅含到达该阶段的任务。",
+      "kind": "experiment",
+      "conditions": [
+        "主实验100任务；检索限速每秒1次。"
+      ],
+      "missingControls": [
+        "各模式完整成功数、配对耗时分布、相同训练条件的多模型比较。"
+      ]
+    },
+    {
+      "id": "e2",
+      "locator": "PDF p.5, §5.3, Table 3",
+      "observation": "首个合法六查询草稿中位耗时243.4毫秒，完整生成484.9毫秒，约1.99倍；首草稿与最终字符串完全一致1/100，连续稳定草稿91/100。",
+      "kind": "experiment",
+      "conditions": [
+        "100合成研究问题；不含模型加载。"
+      ],
+      "missingControls": [
+        "真实问题语义覆盖及下游检索收益的独立重测。"
+      ]
+    },
+    {
+      "id": "e3",
+      "locator": "PDF pp.4,6, §4及Manual source-grounded audit",
+      "observation": "10份盲评报告中dFull/dFast/AR为3/3/4份；50条主张有14条完全支持、10条部分支持、26条未被存储证据确立。",
+      "kind": "experiment",
+      "conditions": [
+        "中英文各5份；每报告抽5条主张。"
+      ],
+      "missingControls": [
+        "足够大的模式间比较样本、领域专家评判、开放世界查证。"
+      ]
+    },
+    {
+      "id": "e4",
+      "locator": "PDF p.5, Table 4及§5.4; pp.6–7, Limitations",
+      "observation": "RACE为dFull 0.3895、dFast 0.3969、AR 0.3904；作者称共同成功任务上的配对均值差区间在两种语言中均跨零。",
+      "kind": "experiment",
+      "conditions": [
+        "Gemini 2.5 Pro评价器，cleaning，0–1标度；可用样本均值。"
+      ],
+      "missingControls": [
+        "完整区间数值、非劣性阈值、逐任务原始分数。"
+      ]
+    },
+    {
+      "id": "e5",
+      "locator": "https://github.com/alanrbtx/DiffResearch#reproduction-scope ; accessed 2026-10-22",
+      "observation": "README区分默认ArXiv+Semantic Scholar流程与论文Semantic-Scholar-only、H200、阶段计时、官方RACE配置。",
+      "kind": "statement",
+      "conditions": [
+        "公开README；未固定代码提交，未检查实现。"
+      ],
+      "missingControls": [
+        "论文对应提交与完整运行清单。"
+      ]
+    }
+  ],
+  "context": {
+    "mode": "targeted-external",
+    "relatedWork": [
+      "查阅作者公开仓库README以核对复现范围；未开展最近邻方法文献比较。"
+    ],
+    "noveltyStatus": "unverified"
+  },
+  "limitations": {
+    "authorStated": [
+      "单组骨干模型；H200环境，不代表消费级硬件。",
+      "dFast没有额外端到端加速；早期草稿仅适合容忍措辞噪声的检索步骤。",
+      "检索相关性和来源充分性仍是瓶颈；榜单快照比较完整系统而非单一解码机制。"
+    ],
+    "analystIdentified": [
+      "差异区间跨零不构成质量等效证明。",
+      "成功样本数量及失败处理披露不足，端到端和阶段均值不能简单相加。",
+      "首次合法JSON只证明结构合规，不能证明语义充分或引用可靠。"
+    ]
+  },
+  "nextResearch": {
+    "hypothesis": "固定来源包和输出要求后，扩散骨干仍可降低耗时，同时不降低来源支持率。",
+    "minimalTest": "冻结20个中英文公开研究问题和相同来源包，预先设定来源支持率不劣界限，匹配硬件、模型版本、生成长度和重试；每配置重复3次，盲审主张并记录全任务失败率与配对耗时。",
+    "falsifier": "在匹配条件下提速消失，或来源支持率差的区间越过预设不劣界限。",
+    "executionStatus": "not-run"
+  },
+  "transfer": {
+    "conditions": [
+      "先记录规划、检索、阅读、写作耗时与失败数，确认瓶颈后再选优化点。",
+      "任何速度优化保留主张与原文证据的对应关系。"
+    ],
+    "workBenefitStatus": "not-tested",
+    "unknowns": [
+      "本研究工作台的瓶颈分布、模型可用性、硬件和总成本；尚未执行迁移实验。"
+    ]
+  },
+  "execution": {
+    "steps": [
+      {
+        "id": "purpose",
+        "status": "done",
+        "output": "明确速度与可靠性须分开评估。",
+        "reason": null
+      },
+      {
+        "id": "source",
+        "status": "done",
+        "output": "读取8页PDF正文与五张表，记录无图和无附录。",
+        "reason": null
+      },
+      {
+        "id": "problem",
+        "status": "done",
+        "output": "复核任务数、语言、硬件、检索及统计分母。",
+        "reason": null
+      },
+      {
+        "id": "mechanism",
+        "status": "done",
+        "output": "重建流程与中间草稿早停机制。",
+        "reason": null
+      },
+      {
+        "id": "evidence",
+        "status": "done",
+        "output": "把耗时、评分、证据支持审计分成独立主张。",
+        "reason": null
+      },
+      {
+        "id": "context",
+        "status": "done",
+        "output": "核对作者仓库文档；新颖性未验证。",
+        "reason": null
+      },
+      {
+        "id": "validation",
+        "status": "done",
+        "output": "给出匹配来源包的可证伪方案，未运行。",
+        "reason": null
+      },
+      {
+        "id": "transfer",
+        "status": "done",
+        "output": "提出先测量阶段瓶颈的迁移条件，收益未知。",
+        "reason": null
+      }
+    ],
+    "externalChecksPerformed": [
+      "2026-10-22核对arXiv v1摘要页的题名、作者和提交日期。",
+      "2026-10-22查看作者GitHub公开README的Reproduction Scope；未运行源码或模型。"
+    ],
+    "experimentsPerformed": []
+  },
+  "publication": {
+    "decision": "review-ready",
+    "tier": "research-analysis",
+    "blockingGaps": [],
+    "qualifications": [
+      "AI辅助阅读与来源核对，不是人工审稿或实验复现。",
+      "只支持带条件的作者结果解读；不认定质量等效或普遍6倍提速。",
+      "review-ready为2026-10-22阅读完成时的状态；2026-10-26发布事实复核见同目录review.md与site-item.json。"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "arxiv-2610-28909-v1",
+  "type": "paper",
+  "title": "DiffResearch：深度研究提速之后，证据质量还要单独检查",
+  "originalTitle": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+  "category": "capabilities",
+  "publishedAt": "2026-10-20T20:40:20Z",
+  "reviewedAt": "2026-10-26T12:47:04Z",
+  "sourceName": "arXiv",
+  "sourceUrl": "https://arxiv.org/abs/2610.28909v1",
+  "fulltextUrl": "https://arxiv.org/pdf/2610.28909v1",
+  "summary": "作者在固定研究流程中比较扩散与自回归语言模型，报告特定配置下约六倍端到端提速。但更早返回子查询没有进一步缩短整条流程，报告主张的来源支持仍需单独核查。",
+  "whyItMatters": "研究工具应同时观察耗时、完成率和证据支持，避免把生成更快误当成研究更可靠。",
+  "method": "保留规划、检索、写作流程及提示，替换同规模骨干；dFast在去噪中间状态出现指定数量的非空子查询时提前返回，最终报告仍完整生成。",
+  "results": "作者在H200、100项任务及固定Semantic Scholar检索配置下报告：AR、dFull、dFast平均耗时71.45、11.89、11.97秒。10份报告的50条抽样主张中，14条完全被存储来源支持，26条尚未被确立。",
+  "limitations": [
+    "单组骨干模型；H200环境，不代表消费级硬件。",
+    "dFast没有额外端到端加速；早期草稿仅适合容忍措辞噪声的检索步骤。",
+    "检索相关性和来源充分性仍是瓶颈；榜单快照比较完整系统而非单一解码机制。",
+    "差异区间跨零不构成质量等效证明。",
+    "成功样本数量及失败处理披露不足，端到端和阶段均值不能简单相加。",
+    "首次合法JSON只证明结构合规，不能证明语义充分或引用可靠。"
+  ],
+  "readingMinutes": 8,
+  "tags": [
+    "研究自动化",
+    "Agent",
+    "扩散语言模型",
+    "推理效率",
+    "证据核查"
+  ],
+  "status": "ready",
+  "sourceCoverage": "full-paper",
+  "analysis": "研究问题：扩散语言模型能否降低深度研究流程耗时，提速是否同时保留证据支持质量？\n\n机制：意图分类、问题改写和规划形成检索计划。；生成子查询，检索来源后合成报告；可选检查器评估覆盖和引文。；dFull等生成结束后解析JSON；dFast在中间去噪状态中遇到指定数量的非空子查询即提前返回。；最终报告仍完整生成；控制实验中的检索限速不因dFast而改变。\n\n结果边界：约六倍提速来自单组骨干、H200环境和100项任务的作者实验。dFast只有局部子查询收益，不能把独立探针的1.99倍与端到端约六倍相乘。\n\n证据质量：抽查10份报告、50条主张中26条未被存储来源包确立，不等于26条事实错误；dFull/dFast/AR样本各3/3/4份，不支持模式间幻觉率比较。RACE差异区间跨零也不证明质量等效。\n\n统计边界：Writer只统计到达写作阶段的任务，各阶段均值不能直接相加。逐任务成功数与原始日志未取得，不能独立重算完整结果。\n\n迁移条件：先测规划、检索、阅读与写作的耗时和失败数，再选择优化环节；保留每条重要主张到原文证据的对应关系。\n\n下一项验证（未运行）：冻结20个中英文公开研究问题和相同来源包，预先设定来源支持率不劣界限，匹配硬件、模型版本、生成长度和重试；每配置重复3次，盲审主张并记录全任务失败率与配对耗时。",
+  "qualityNotes": "AI辅助阅读与发布前原文复核，未进行专家审稿或独立复现。已读8页PDF的正文及5张表；无编号图、无附录。作者模型与硬件条件按论文陈述，未核查模型训练差异。",
+  "evidence": [
+    {
+      "id": "e1",
+      "label": "端到端与阶段耗时",
+      "locator": "PDF p.4, Table 1; p.5, Table 2",
+      "url": "https://arxiv.org/pdf/2610.28909v1",
+      "supports": "AR/dFull/dFast端到端均值为71.45/11.89/11.97秒；p90为111.87/16.13/16.33秒。Writer的分母仅含到达该阶段的任务。",
+      "kind": "paper"
+    },
+    {
+      "id": "e2",
+      "label": "中间状态提取实验",
+      "locator": "PDF p.5, §5.3, Table 3",
+      "url": "https://arxiv.org/pdf/2610.28909v1",
+      "supports": "首个合法六查询草稿中位耗时243.4毫秒，完整生成484.9毫秒，约1.99倍；首草稿与最终字符串完全一致1/100，连续稳定草稿91/100。",
+      "kind": "paper"
+    },
+    {
+      "id": "e3",
+      "label": "来源支持审计",
+      "locator": "PDF pp.4,6, §4及Manual source-grounded audit",
+      "url": "https://arxiv.org/pdf/2610.28909v1",
+      "supports": "10份盲评报告中dFull/dFast/AR为3/3/4份；50条主张有14条完全支持、10条部分支持、26条未被存储证据确立。",
+      "kind": "paper"
+    },
+    {
+      "id": "e4",
+      "label": "评分与统计限制",
+      "locator": "PDF p.5, Table 4及§5.4; pp.6–7, Limitations",
+      "url": "https://arxiv.org/pdf/2610.28909v1",
+      "supports": "RACE为dFull 0.3895、dFast 0.3969、AR 0.3904；作者称共同成功任务上的配对均值差区间在两种语言中均跨零。",
+      "kind": "paper"
+    },
+    {
+      "id": "e5",
+      "label": "复现范围说明",
+      "locator": "https://github.com/alanrbtx/DiffResearch#reproduction-scope ; accessed 2026-10-22",
+      "url": "https://github.com/alanrbtx/DiffResearch#reproduction-scope",
+      "supports": "README区分默认ArXiv+Semantic Scholar流程与论文Semantic-Scholar-only、H200、阶段计时、官方RACE配置。",
+      "kind": "external"
+    }
+  ],
+  "priorWork": [],
+  "reading": {
+    "bodyRead": true,
+    "figuresReviewed": 0,
+    "totalMainFigures": 0,
+    "tablesReviewed": 5,
+    "totalMainTables": 5,
+    "coreAppendixRead": true,
+    "sections": [
+      "§1 Introduction",
+      "§3 System Design",
+      "§4 Experimental Setup",
+      "§5 Results and Discussion",
+      "Limitations"
+    ],
+    "sourceVersion": "v1;sha256:8350416179d1a2e54066ee3bd36446eec1eb7fb9969aba5dc6749471cc3aeb95",
+    "reviewNotes": "正文文字已读，pp.4–6页图交叉核对五张表。本版本无编号图、无附录，coreAppendixRead表示无核心附录待查；代码未运行、实验未复现。原始PDF指纹和材料覆盖见研究记录。"
+  }
+}
