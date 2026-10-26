@@ -1,12 +1,32 @@
 import { createHash } from "node:crypto";
-import { execFile } from "node:child_process";
+import { execFile, type ExecFileOptionsWithStringEncoding } from "node:child_process";
 import { promisify } from "node:util";
-import { mkdtemp, writeFile, readFile, rm } from "node:fs/promises";
+import { mkdtemp, writeFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { isSafeSourceUrl } from "../lib/research.ts";
 export const sha = (value: string | Uint8Array) =>
   createHash("sha256").update(value).digest("hex");
+const isArxiv = (url: URL) => /^(?:www\.|export\.)?arxiv\.org$/.test(url.hostname);
+
+async function runPdfTool(
+  command: string,
+  args: string[],
+  options: ExecFileOptionsWithStringEncoding,
+) {
+  try {
+    return await promisify(execFile)(command, args, options);
+  } catch (error: any) {
+    if (error.code === "ENOENT") {
+      const install = process.platform === "darwin"
+        ? "请在终端运行 brew install poppler，安装后重试"
+        : "请安装 Poppler（pdfinfo 和 pdftotext），安装后重试";
+      throw Error(`缺少 PDF 文字提取工具 Poppler。${install}；未调用模型。`);
+    }
+    if (error.killed) throw Error("PDF 解析超时，请缩短材料后重试；未调用模型。");
+    throw Error("PDF 无法解析或提取文字，请检查文件是否损坏、加密及 Poppler 是否可用；未调用模型。");
+  }
+}
 export function extractHtml(html: string) {
   const main =
     /<(?:article|main)\b[^>]*>([\s\S]*?)<\/(?:article|main)>/i.exec(
@@ -56,9 +76,21 @@ export async function fetchSource(
 ): Promise<Source> {
   let target = url,
     response: Response | undefined;
+  let expectsPdf = false;
   for (let i = 0; i < 5; i++) {
     if (!isSafeSourceUrl(target))
       throw Error("仅允许来源白名单中的 HTTPS 地址");
+    const address = new URL(target);
+    if (isArxiv(address) && address.pathname.startsWith("/abs/")) {
+      const id = /^\/abs\/((?:\d{4}\.\d{4,5}|[a-z][a-z.-]*\/\d{7})(?:v[1-9]\d*)?)\/?$/i.exec(address.pathname)?.[1];
+      if (!id) throw Error("无法识别 arXiv 论文编号，请提供完整的论文摘要页或 PDF 链接。");
+      address.pathname = `/pdf/${id}.pdf`;
+      address.search = "";
+      address.hash = "";
+      target = address.href;
+    }
+    expectsPdf ||= /\.pdf$/i.test(address.pathname) ||
+      (isArxiv(address) && address.pathname.startsWith("/pdf/"));
     response = await transport(target, {
       redirect: "manual",
       signal: AbortSignal.timeout(30000),
@@ -76,8 +108,7 @@ export async function fetchSource(
   if (!response?.ok || !response.body)
     throw Error(`来源暂时无法读取（${response?.status || "network"}）`);
   const type = response.headers.get("content-type") || "";
-  const pdf =
-    /application\/pdf/i.test(type) || new URL(target).pathname.endsWith(".pdf");
+  const pdf = expectsPdf || /application\/pdf/i.test(type);
   if (!pdf && !/text\/|application\/(?:xml|json|xhtml)/i.test(type))
     throw Error("不支持的来源格式");
   const chunks: Uint8Array[] = [];
@@ -103,22 +134,22 @@ export async function fetchSource(
     const folder = await mkdtemp(join(tmpdir(), "frontier-pdf-"));
     try {
       if (bytes.subarray(0, 5).toString() !== "%PDF-")
-        throw Error("文件不是 PDF");
+        throw Error("来源未返回有效的 PDF 正文，可能是访问限制页；未调用模型。");
       const file = join(folder, "source.pdf");
       await writeFile(file, bytes, { mode: 0o600 });
-      const run = promisify(execFile);
-      const info = await run("pdfinfo", [file], {
+      const info = await runPdfTool("pdfinfo", [file], {
+        encoding: "utf8",
         timeout: 15000,
         maxBuffer: 100000,
       });
       const pages = Number(/^Pages:\s*(\d+)/m.exec(info.stdout)?.[1]);
       if (!pages || pages > 40) throw Error("PDF 页数未知或超过 40 页");
-      await run(
+      const extracted = await runPdfTool(
         "pdftotext",
-        ["-layout", "-enc", "UTF-8", file, join(folder, "source.txt")],
-        { timeout: 20000, maxBuffer: 100000 },
+        ["-layout", "-enc", "UTF-8", file, "-"],
+        { encoding: "utf8", timeout: 20000, maxBuffer: 2_000_000 },
       );
-      text = await readFile(join(folder, "source.txt"), "utf8");
+      text = extracted.stdout;
       title =
         /^Title:\s*(.+)/m.exec(info.stdout)?.[1] || new URL(target).pathname;
       gaps.push(

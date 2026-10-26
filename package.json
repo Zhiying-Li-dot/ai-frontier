@@ -9,16 +9,19 @@
   "scripts": {
     "build": "node --experimental-strip-types scripts/build-data.ts && vite build",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:ui": "npm run build && node --experimental-strip-types --test tests/browser/*.test.ts",
+    "test:sources": "node --experimental-strip-types --test tests/integration/paper-source.test.ts",
     "discover": "node --experimental-strip-types scripts/discover.ts",
     "workbench": "node --experimental-strip-types local/server.ts"
   },
   "dependencies": {
+    "lucide-react": "1.31.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "lucide-react": "1.31.0",
     "zod": "3.25.76"
   },
   "devDependencies": {
+    "playwright": "1.64.1",
     "vite": "8.0.13"
   }
 }

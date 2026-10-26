@@ -1,0 +1,5 @@
+simulation: paper-source
+routing: path
+mocks:
+  - routeKey: arxiv
+    path: ../mocks/arxiv/default.js

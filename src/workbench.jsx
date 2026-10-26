@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useEffect, useState, useCallback, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowUpRight,
@@ -51,6 +51,44 @@ const labels = {
 };
 const friendlyDecision = (r) =>
   r.publication.decision === "hold" ? "待补材料" : "待事实复核";
+
+function useReadingResource(path, revision) {
+  const [result, setResult] = useState(null);
+  const [attempt, setAttempt] = useState(0);
+  const key = JSON.stringify([path, revision, attempt]);
+  useEffect(() => {
+    if (!path) return;
+    const controller = new AbortController();
+    async function load() {
+      try {
+        const response = await fetch(path, {
+          cache: "no-store",
+          signal: controller.signal,
+        });
+        const value = await response.json();
+        if (!response.ok) throw Error(value.error || "读取失败，请重试。");
+        if (!controller.signal.aborted) setResult({ key, value });
+      } catch (error) {
+        if (!controller.signal.aborted)
+          setResult({
+            key,
+            error:
+              error instanceof TypeError || error instanceof SyntaxError
+                ? "读取失败，请检查本机服务后重试。"
+                : error.message,
+          });
+      }
+    }
+    load();
+    return () => controller.abort();
+  }, [path, key]);
+  return {
+    value: result?.key === key ? result.value : null,
+    error: result?.key === key ? result.error : "",
+    retry: () => setAttempt((n) => n + 1),
+  };
+}
+
 function App() {
   const [data, setData] = useState(null),
     [error, setError] = useState(""),
@@ -59,46 +97,77 @@ function App() {
     [acting, setActing] = useState(false);
   const [profile, setProfile] = useState(null),
     [selected, setSelected] = useState(""),
-    [view, setView] = useState(null),
     [tab, setTab] = useState("overview"),
     [url, setUrl] = useState(""),
-    [query, setQuery] = useState(""),
-    [source, setSource] = useState(null);
+    [query, setQuery] = useState("");
+  const session = useRef(null);
+  const refreshSequence = useRef(0);
   const refresh = useCallback(async () => {
-    const r = await fetch("./api/state", { cache: "no-store" });
-    if (!r.ok) throw Error("本机研究服务未连接");
-    const d = await r.json();
-    setData(d);
-    setOffline(false);
-    setProfile((p) => p || d.profile);
-    setSelected((s) => s || d.records[0]?.fingerprint || "");
-    return d;
+    const sequence = ++refreshSequence.current;
+    try {
+      const r = await fetch("./api/state", { cache: "no-store" });
+      if (!r.ok) throw Error("本机研究服务未连接");
+      const d = await r.json();
+      if (sequence !== refreshSequence.current) return;
+      const restarted =
+        session.current !== null && session.current !== d.sessionToken;
+      session.current = d.sessionToken;
+      setData(d);
+      setOffline(false);
+      setProfile((p) => (restarted ? d.profile : p || d.profile));
+      setSelected((s) =>
+        d.records.some((record) => record.fingerprint === s)
+          ? s
+          : d.records[0]?.fingerprint || "",
+      );
+      if (restarted) {
+        setError("");
+        setNotice(
+          "本机服务已重启，已切换到新会话；上一会话的个人草稿和偏好已清除。",
+        );
+      }
+      return d;
+    } catch (error) {
+      if (sequence === refreshSequence.current) throw error;
+    }
   }, []);
   useEffect(() => {
     if (window.location.hostname !== "127.0.0.1") {
       setOffline(true);
       return;
     }
-    refresh().catch(() => setOffline(true));
-    const t = setInterval(() => refresh().catch(() => setOffline(true)), 4000);
-    return () => clearInterval(t);
+    let polling = false;
+    let stopped = false;
+    async function poll() {
+      if (polling || stopped) return;
+      polling = true;
+      try {
+        await refresh();
+      } catch {
+        if (!stopped) setOffline(true);
+      } finally {
+        polling = false;
+      }
+    }
+    poll();
+    const t = setInterval(poll, 4000);
+    return () => {
+      stopped = true;
+      clearInterval(t);
+    };
   }, [refresh]);
   const record = data?.records.find((r) => r.fingerprint === selected);
-  useEffect(() => {
-    if (!selected || !data) return;
-    fetch("./api/view/" + selected)
-      .then((r) => r.json())
-      .then(setView)
-      .catch(() => {});
-  }, [selected, data?.activeVersion, JSON.stringify(data?.profile)]);
-  useEffect(() => {
-    setSource(null);
-    if (tab === "source" && selected)
-      fetch("./api/source/" + selected)
-        .then((r) => r.json())
-        .then((x) => setSource(x.source))
-        .catch(() => {});
-  }, [selected, tab]);
+  const viewRequest = useReadingResource(
+    record ? "./api/view/" + selected : null,
+    JSON.stringify([data?.sessionToken, data?.activeVersion, data?.profile]),
+  );
+  const sourceRequest = useReadingResource(
+    record && tab === "source" ? "./api/source/" + selected : null,
+    data?.sessionToken,
+  );
+  const view = viewRequest.value;
+  const source = sourceRequest.value?.source;
+  const readingRequest = { overview: viewRequest, source: sourceRequest }[tab];
   async function act(action, fields = {}) {
     setActing(true);
     setError("");
@@ -114,7 +183,18 @@ function App() {
       });
       const result = await r.json();
       if (!r.ok) throw Error(result.error || "操作失败");
-      await refresh();
+      if (action === "clear-personal" && result.result?.cleared) {
+        // The mutation is confirmed even if the next state request fails.
+        ++refreshSequence.current;
+        setData(null);
+        setProfile(null);
+      }
+      try {
+        await refresh();
+      } catch {
+        setOffline(true);
+        setError("操作已完成，但最新状态暂时无法读取，正在等待重新连接。");
+      }
       if (result.result?.message) setNotice(result.result.message);
       return result.result;
     } catch (e) {
@@ -135,6 +215,8 @@ function App() {
           F<span>AI FRONTIER</span>
         </div>
         <h1>个人研究工作台在本机运行</h1>
+        {notice && <p role="status">{notice}</p>}
+        {error && <p role="alert">{error}</p>}
         <p>公共雷达继续免费在线。精读模型和个人反馈需要启动本机服务。</p>
         <pre>
           cd ai-frontier{`\n`}npm ci{`\n`}npm run build{`\n`}npm run workbench
@@ -243,8 +325,10 @@ function App() {
             <strong>个人上下文仅本次会话</strong>
             <p>岗位、目标和反馈不发送给模型。关闭本机服务后清除。</p>
             <button
+              disabled={acting || offline}
               onClick={async () => {
-                await act("clear-personal");
+                const result = await act("clear-personal");
+                if (!result?.cleared) return;
                 setProfile({
                   role: "developer",
                   goal: "",
@@ -449,6 +533,15 @@ function App() {
                   ))}
                 </div>
                 <div className="wb-readerbody">
+                  {readingRequest?.error && (
+                    <div role="alert" className="wb-alert error">
+                      <p>{readingRequest.error}</p>
+                      <button onClick={readingRequest.retry}>重试</button>
+                    </div>
+                  )}
+                  {tab === "overview" && !view && !viewRequest.error && (
+                    <p role="status">正在加载当前资料的解读…</p>
+                  )}
                   {record.record.publication.decision === "hold" && (
                     <div className="wb-hold">
                       <strong>材料缺口，保留为候选</strong>
@@ -626,7 +719,9 @@ function App() {
                         <pre className="wb-sourcetext">{source.text}</pre>
                       </>
                     ) : (
-                      <p>正在读取原文快照…</p>
+                      !sourceRequest.error && (
+                        <p role="status">正在读取原文快照…</p>
+                      )
                     ))}
                 </div>
               </section>
