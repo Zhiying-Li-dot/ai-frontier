@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T06:34:15.247Z",
+  "updatedAt": "2026-10-29T15:11:28.601Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,30 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-mBDkupZa3NagfLW86-ai-192-anthropic-is-going-public",
+      "type": "update",
+      "title": "AI #192: Anthropic Is Going Public",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-29T13:50:54.000Z",
+      "reviewedAt": "2026-10-29T15:11:27.965Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/mBDkupZa3NagfLW86/ai-192-anthropic-is-going-public",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-7u9dXSAoShP66bL49-compensating-the-victims-of-automation-is-economically",
       "type": "update",
@@ -7395,6 +7419,30 @@
       "reviewedAt": "2026-10-29T05:39:07.461Z",
       "sourceName": "Alignment Forum",
       "sourceUrl": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-25th-october",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "alignmentforum.org-posts-dmYP7DS3ERyXGAYe6-setting-the-scene-public-v1-october-2026",
+      "type": "update",
+      "title": "Setting the Scene (Public v1; October 2026)",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-25T07:52:23.000Z",
+      "reviewedAt": "2026-10-29T15:11:27.965Z",
+      "sourceName": "Alignment Forum",
+      "sourceUrl": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-2026",
       "summary": "",
       "whyItMatters": "",
       "method": "",
@@ -24694,82 +24742,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-29T06:34:14.614Z",
+      "checkedAt": "2026-10-29T15:11:27.965Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "1b96b8f9-b00e-4e9b-9840-16aa46d1be7b",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-29T15:11:28.601Z",
+      "message": "检查11个公开入口，0个未完成，2条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "3e034b3a-8288-49bc-9161-27257985d44c",
       "mode": "discovery",
@@ -25112,13 +25167,6 @@
       "status": "succeeded",
       "at": "2026-10-19T15:47:01.383Z",
       "message": "检查11个公开入口，0个未完成，6条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "1fb17a34-ed63-4b0a-bfe6-656588446e23",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-19T05:25:20.558Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
   "budget": {
