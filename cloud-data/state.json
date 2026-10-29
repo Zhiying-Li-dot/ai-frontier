@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T05:39:08.197Z",
+  "updatedAt": "2026-10-29T06:34:15.247Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,30 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-7u9dXSAoShP66bL49-compensating-the-victims-of-automation-is-economically",
+      "type": "update",
+      "title": "Compensating the victims of automation is economically beneficial",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-29T06:19:50.000Z",
+      "reviewedAt": "2026-10-29T06:34:14.614Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/7u9dXSAoShP66bL49/compensating-the-victims-of-automation-is-economically",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-aSJncSDu9bJvivaND-dependencies-in-conversation-and-in-software",
       "type": "update",
@@ -24670,82 +24694,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-29T05:39:07.461Z",
+      "checkedAt": "2026-10-29T06:34:14.614Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "3e034b3a-8288-49bc-9161-27257985d44c",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-29T06:34:15.247Z",
+      "message": "检查11个公开入口，0个未完成，1条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "b4ec08ea-332b-4c71-b978-a30769114cad",
       "mode": "discovery",
@@ -25087,13 +25118,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-19T05:25:20.558Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "921e41f0-675e-4a78-8a7c-e7fca6dc08c7",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-19T04:32:17.214Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
