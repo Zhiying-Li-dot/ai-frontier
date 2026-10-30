@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T05:38:03.030Z",
+  "updatedAt": "2026-10-30T06:33:42.694Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,30 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-FZ4iJvqmzxXFSz6JX-my-experiences-with-the-extremes-of-post-viral-illness-and",
+      "type": "update",
+      "title": "My experiences with the extremes of post-viral illness and brain retraining/mindbody work",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-30T06:07:39.000Z",
+      "reviewedAt": "2026-10-30T06:33:41.951Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/FZ4iJvqmzxXFSz6JX/my-experiences-with-the-extremes-of-post-viral-illness-and",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-YG4gDGDBpqZ8Z7GzX-walking-partway-to-school",
       "type": "update",
@@ -25102,82 +25126,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-30T05:38:02.329Z",
+      "checkedAt": "2026-10-30T06:33:41.951Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "d0498e02-08aa-44ca-8d10-a1e5ae1c657b",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-30T06:33:42.694Z",
+      "message": "检查11个公开入口，0个未完成，1条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "35ef3f65-f252-4acc-b852-2ec651a888a9",
       "mode": "discovery",
@@ -25519,13 +25550,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-20T05:27:17.219Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "4807d76f-afe6-4dc6-858e-e31c06f09b1b",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-20T04:41:40.084Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
