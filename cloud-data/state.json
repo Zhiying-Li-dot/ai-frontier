@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T06:23:07.036Z",
+  "updatedAt": "2026-10-31T14:29:15.644Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,54 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-aHqKqTcvLEkMNkAHX-what-social-constructs-are-and-are-not",
+      "type": "update",
+      "title": "What Social Constructs Are (And Are Not)",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-31T12:33:13.000Z",
+      "reviewedAt": "2026-10-31T14:29:15.052Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/aHqKqTcvLEkMNkAHX/what-social-constructs-are-and-are-not",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-DpfvWSaGtujM6rL8R-dialogue-with-davidad-about-emergent-wisdom-in-language",
+      "type": "update",
+      "title": "Dialogue with Davidad about Emergent Wisdom in Language Models",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-31T12:31:37.000Z",
+      "reviewedAt": "2026-10-31T14:29:15.052Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/DpfvWSaGtujM6rL8R/dialogue-with-davidad-about-emergent-wisdom-in-language",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "arxiv:2610.37859",
       "type": "paper",
@@ -26902,82 +26950,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-31T06:23:06.255Z",
+      "checkedAt": "2026-10-31T14:29:15.052Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "1862ab24-7734-4413-9b40-079240c44850",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-31T14:29:15.644Z",
+      "message": "检查11个公开入口，0个未完成，2条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "3011e8b8-3a35-4f45-8e0f-4ef9acba4fa7",
       "mode": "discovery",
@@ -27319,13 +27374,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-21T05:25:28.159Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "c63b5ded-65c3-4f2a-8a15-ce47f683b6fb",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-21T04:35:58.938Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
