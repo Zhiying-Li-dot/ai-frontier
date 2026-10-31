@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T19:55:25.785Z",
+  "updatedAt": "2026-10-31T23:19:42.738Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,126 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-579yLaP6YfL9ZRtdN-conclusions-of-my-diy-inkhaven",
+      "type": "update",
+      "title": "Conclusions of my DIY Inkhaven",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-31T23:13:26.000Z",
+      "reviewedAt": "2026-10-31T23:19:41.628Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/579yLaP6YfL9ZRtdN/conclusions-of-my-diy-inkhaven",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "alignmentforum.org-posts-RHxaRkarGp9snWoKY-explaining-ai-might-obliterate-you-to-senior-policymakers-in",
+      "type": "update",
+      "title": "Explaining “AI might obliterate you” to senior policymakers in India",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-31T21:37:22.000Z",
+      "reviewedAt": "2026-10-31T23:19:41.628Z",
+      "sourceName": "Alignment Forum",
+      "sourceUrl": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-RHxaRkarGp9snWoKY-explaining-ai-might-obliterate-you-to-senior-policymakers-in",
+      "type": "update",
+      "title": "Explaining “AI might obliterate you” to senior policymakers in India",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-31T21:37:22.000Z",
+      "reviewedAt": "2026-10-31T23:19:41.628Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-EC5H7xakTgxxNXm5g-sanity-checks-for-sanity-checks-for-sparse-autoencoders",
+      "type": "update",
+      "title": "Sanity Checks for Sanity Checks for Sparse Autoencoders",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-31T20:47:20.000Z",
+      "reviewedAt": "2026-10-31T23:19:41.628Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/EC5H7xakTgxxNXm5g/sanity-checks-for-sanity-checks-for-sparse-autoencoders",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-XpBwFsRhkQRQJN2pt-accidentally-misleading-people-should-be-embarrassing-or",
+      "type": "update",
+      "title": "Accidentally Misleading People Should Be Embarrassing; Or, Higher Innocence",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-10-31T20:03:31.000Z",
+      "reviewedAt": "2026-10-31T23:19:41.628Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/XpBwFsRhkQRQJN2pt/accidentally-misleading-people-should-be-embarrassing-or",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-xikGZ8fuhdG6DApAo-against-sura",
       "type": "update",
@@ -27046,82 +27166,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-10-31T19:55:25.150Z",
+      "checkedAt": "2026-10-31T23:19:41.628Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "6f0e6e15-d170-4b27-a645-7e3c32ab4fd5",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-10-31T23:19:42.738Z",
+      "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "a611b16e-e32c-417a-bd27-1e9d2f655ec7",
       "mode": "discovery",
@@ -27463,13 +27590,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-21T20:05:46.448Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "edaaef10-ddb3-4716-9ae2-226673cd21ac",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-21T13:43:25.145Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
