@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T15:00:42.616Z",
+  "updatedAt": "2026-11-01T20:27:19.356Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,78 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-73jyKwdbxjsD7SECv-is-your-chatbot-less-helpful-because-it-thinks-you-re-a-bad",
+      "type": "update",
+      "title": "Is your chatbot less helpful because it thinks you’re a bad person? — Replicating a blogpost",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-01T20:09:10.000Z",
+      "reviewedAt": "2026-11-01T20:27:18.861Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/73jyKwdbxjsD7SECv/is-your-chatbot-less-helpful-because-it-thinks-you-re-a-bad",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-T4AS8MpnZwxh33GRD-free-floating-social-patterns",
+      "type": "update",
+      "title": "Free-Floating Social Patterns",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-01T19:13:39.000Z",
+      "reviewedAt": "2026-11-01T20:27:18.861Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/T4AS8MpnZwxh33GRD/free-floating-social-patterns",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-o9CYcjZDqCQf5qeJy-misalignment-traps-lie-in-wait",
+      "type": "update",
+      "title": "Misalignment traps lie in wait",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-01T17:30:25.000Z",
+      "reviewedAt": "2026-11-01T20:27:18.861Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/o9CYcjZDqCQf5qeJy/misalignment-traps-lie-in-wait",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-9uhcexcfYuWvu2cDq-organic",
       "type": "update",
@@ -27262,82 +27334,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-01T15:00:42.079Z",
+      "checkedAt": "2026-11-01T20:27:18.861Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "b119ef16-bbdb-4725-832a-afae7309c64c",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-01T20:27:19.356Z",
+      "message": "检查11个公开入口，0个未完成，3条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "964327b9-f96d-417e-b417-ac846aa3a13e",
       "mode": "discovery",
@@ -27679,13 +27758,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-22T13:44:14.276Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "fe7503b7-e1be-4226-9fe8-96e07809378a",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-22T05:31:36.021Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
