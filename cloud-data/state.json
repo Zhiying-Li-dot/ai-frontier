@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T06:40:00.835Z",
+  "updatedAt": "2026-11-07T14:51:31.516Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,54 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-QgcgoMz7mviHL6Esr-anthropic-s-ai-acceleration-is-probably-real",
+      "type": "update",
+      "title": "Anthropic's AI acceleration is probably real",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-07T12:46:01.000Z",
+      "reviewedAt": "2026-11-07T14:51:31.045Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/QgcgoMz7mviHL6Esr/anthropic-s-ai-acceleration-is-probably-real",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-PZjy52afLn89NdMta-hilarity-ensues",
+      "type": "update",
+      "title": "Hilarity ensues",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-07T09:57:18.000Z",
+      "reviewedAt": "2026-11-07T14:51:31.045Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/PZjy52afLn89NdMta/hilarity-ensues",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-vyzHkheBG6y5zapve-minimalism-stuff-and-brains",
       "type": "update",
@@ -36766,82 +36814,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-07T06:40:00.277Z",
+      "checkedAt": "2026-11-07T14:51:31.045Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "6052a711-fe3c-406b-9120-1749b667badc",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-07T14:51:31.516Z",
+      "message": "检查11个公开入口，0个未完成，2条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "893d150e-a83d-4f2f-802b-92bdb9df683a",
       "mode": "discovery",
@@ -37183,13 +37238,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-26T20:59:33.986Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "9cbe9cea-566c-4489-a629-dc300f39d7ae",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-26T15:08:24.621Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
