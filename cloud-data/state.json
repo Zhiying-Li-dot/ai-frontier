@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T14:51:31.516Z",
+  "updatedAt": "2026-11-07T20:11:23.704Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,126 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-AuAvzmRCmTkxLDtAn-eval-awareness-as-eval-type-awareness",
+      "type": "update",
+      "title": "Eval Awareness as Eval-type Awareness",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-07T19:47:22.000Z",
+      "reviewedAt": "2026-11-07T20:11:23.088Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/AuAvzmRCmTkxLDtAn/eval-awareness-as-eval-type-awareness",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-fjGgrzAkpSDouLwfx-illegible-problems-as-the-2027-political-boss-fight",
+      "type": "update",
+      "title": "\"Illegible problems\" as the 2027 political boss fight",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-07T19:18:30.000Z",
+      "reviewedAt": "2026-11-07T20:11:23.088Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/fjGgrzAkpSDouLwfx/illegible-problems-as-the-2027-political-boss-fight",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-iXKhtYuXtneXzw9fN-let-s-try-to-catch-misalignment-before-a-model-learns-to",
+      "type": "update",
+      "title": "Let's Try to Catch Misalignment Before a Model Learns to Hide It",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-07T17:56:23.000Z",
+      "reviewedAt": "2026-11-07T20:11:23.088Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/iXKhtYuXtneXzw9fN/let-s-try-to-catch-misalignment-before-a-model-learns-to",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-wiiApTtRgJgw2EcdZ-the-4-types-of-ai-consciousness-feeling",
+      "type": "update",
+      "title": "The 4 types of AI consciousness/feeling",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-07T17:28:50.000Z",
+      "reviewedAt": "2026-11-07T20:11:23.088Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/wiiApTtRgJgw2EcdZ/the-4-types-of-ai-consciousness-feeling",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-9ixerpx4DCQTaRYCz-five-types-of-corrigibility-projects-i-don-t-want-to-fund",
+      "type": "update",
+      "title": "Five Types of “Corrigibility Projects” I Don’t Want to Fund",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-07T17:04:07.000Z",
+      "reviewedAt": "2026-11-07T20:11:23.088Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/9ixerpx4DCQTaRYCz/five-types-of-corrigibility-projects-i-don-t-want-to-fund",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-QgcgoMz7mviHL6Esr-anthropic-s-ai-acceleration-is-probably-real",
       "type": "update",
@@ -36814,82 +36934,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:51:31.045Z",
+      "checkedAt": "2026-11-07T20:11:23.088Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "ebf5d508-a538-4646-9fad-070606032520",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-07T20:11:23.704Z",
+      "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "6052a711-fe3c-406b-9120-1749b667badc",
       "mode": "discovery",
@@ -37231,13 +37358,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-27T04:55:32.081Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "cbc30e4b-3599-4969-bcd8-10f0afdd8049",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-26T20:59:33.986Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
