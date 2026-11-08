@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T06:45:59.099Z",
+  "updatedAt": "2026-11-08T15:05:26.161Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,126 @@
     }
   ],
   "inbox": [
+    {
+      "id": "alignmentforum.org-posts-ft9hzw82v7FRDKmpn-notes-on-take-off-speeds-and-rsi",
+      "type": "update",
+      "title": "Notes on Take-Off Speeds and RSI",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-08T13:39:02.000Z",
+      "reviewedAt": "2026-11-08T15:05:25.613Z",
+      "sourceName": "Alignment Forum",
+      "sourceUrl": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-ft9hzw82v7FRDKmpn-notes-on-take-off-speeds-and-rsi",
+      "type": "update",
+      "title": "Notes on Take-Off Speeds and RSI",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-08T13:39:02.000Z",
+      "reviewedAt": "2026-11-08T15:05:25.613Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-7e38jwHhe64zgNTon-near-horizons",
+      "type": "update",
+      "title": "Near Horizons",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-08T12:58:03.000Z",
+      "reviewedAt": "2026-11-08T15:05:25.613Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/7e38jwHhe64zgNTon/near-horizons",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-EvGLAuEtHpicKGBJh-hands-on-tutorials-for-inspect-ai-1",
+      "type": "update",
+      "title": "Hands-On Tutorials for Inspect AI",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-08T11:59:57.000Z",
+      "reviewedAt": "2026-11-08T15:05:25.613Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/EvGLAuEtHpicKGBJh/hands-on-tutorials-for-inspect-ai-1",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-WnL4nWrS2owzZfwiz-what-do-llms-really-learn-about-model-weights-a",
+      "type": "update",
+      "title": "What do LLMs Really Learn About Model Weights? A Stratification Approach to Examine Weight Space Programming",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-08T07:35:02.000Z",
+      "reviewedAt": "2026-11-08T15:05:25.613Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/WnL4nWrS2owzZfwiz/what-do-llms-really-learn-about-model-weights-a",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-CotJJRxA3qgBAxFhF-rhythm-stage-setup-v5",
       "type": "update",
@@ -37006,82 +37126,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-08T06:45:58.578Z",
+      "checkedAt": "2026-11-08T15:05:25.613Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "d350e7a9-3a4a-4972-a04d-6aa351f97bab",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-08T15:05:26.161Z",
+      "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "916db8e6-464b-41c4-b9de-b729bad351df",
       "mode": "discovery",
@@ -37423,13 +37550,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-10-28T05:30:21.006Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "a54e62ff-c331-47b5-8014-60efc922bbb7",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-27T20:39:14.535Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
