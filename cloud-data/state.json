@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T01:01:42.273Z",
+  "updatedAt": "2026-11-13T07:25:49.891Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,126 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-8PMbEETpAmgJmtwkd-a-solvable-model-of-feature-learning-in-a-nonlinear-network",
+      "type": "update",
+      "title": "A solvable model of feature learning in a nonlinear network",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-13T06:40:41.000Z",
+      "reviewedAt": "2026-11-13T07:25:49.232Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/8PMbEETpAmgJmtwkd/a-solvable-model-of-feature-learning-in-a-nonlinear-network",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-ifnrTCRobGW4XTja2-the-epicurean-technique-of-meeting-claims-with-more-claims",
+      "type": "update",
+      "title": "The Epicurean technique of meeting claims with more claims",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-13T06:28:19.000Z",
+      "reviewedAt": "2026-11-13T07:25:49.232Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/ifnrTCRobGW4XTja2/the-epicurean-technique-of-meeting-claims-with-more-claims",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-hobjMq8FcueYazxCY-gpt-5-6-won-t-be-oppenheimer",
+      "type": "update",
+      "title": "GPT-5.6 won’t be Oppenheimer",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-13T05:32:59.000Z",
+      "reviewedAt": "2026-11-13T07:25:49.232Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/hobjMq8FcueYazxCY/gpt-5-6-won-t-be-oppenheimer",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-wtr9bcgAFbvBDQi5p-stroh-violin-shoulder-rest",
+      "type": "update",
+      "title": "Stroh Violin Shoulder Rest",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-13T03:51:01.000Z",
+      "reviewedAt": "2026-11-13T07:25:49.232Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/wtr9bcgAFbvBDQi5p/stroh-violin-shoulder-rest",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-u3CKQTMNffKrpJQcd-thoughts-on-attending-the-march-against-ai-extinction",
+      "type": "update",
+      "title": "Thoughts on attending the March Against AI Extinction",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-13T01:04:16.000Z",
+      "reviewedAt": "2026-11-13T07:25:49.232Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/u3CKQTMNffKrpJQcd/thoughts-on-attending-the-march-against-ai-extinction",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-biFHYdJnMSCmW9Xou-orienting-to-1-year-agi-timelines",
       "type": "update",
@@ -43342,82 +43462,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-13T01:01:41.371Z",
+      "checkedAt": "2026-11-13T07:25:49.232Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "214eb075-a5fb-4ecd-a6cc-daffe1251cf4",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-13T07:25:49.891Z",
+      "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "56e254fc-85df-4d8d-b467-93c67b206624",
       "mode": "discovery",
@@ -43760,13 +43887,6 @@
       "status": "succeeded",
       "at": "2026-10-31T23:19:42.738Z",
       "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "a611b16e-e32c-417a-bd27-1e9d2f655ec7",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-10-31T19:55:25.785Z",
-      "message": "检查11个公开入口，0个未完成，4条新候选。全文不足的内容不出刊。"
     }
   ],
   "budget": {
