@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T07:06:32.193Z",
+  "updatedAt": "2026-11-14T11:23:52.300Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,54 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-EMKRpxKswPZEbP8ey-datasets-determine-the-difficulty-of-interpretability",
+      "type": "update",
+      "title": "Datasets Determine the Difficulty of Interpretability",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T08:57:30.000Z",
+      "reviewedAt": "2026-11-14T11:23:51.537Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/EMKRpxKswPZEbP8ey/datasets-determine-the-difficulty-of-interpretability",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-kXA22cZ6BdYdyL3Jz-i-was-zohran-s-campaign-manager-here-s-what-the-ai-safety-1",
+      "type": "update",
+      "title": "I was Zohran’s campaign manager. Here’s what the AI safety community can learn from the populist left.",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T08:01:44.000Z",
+      "reviewedAt": "2026-11-14T11:23:51.537Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/kXA22cZ6BdYdyL3Jz/i-was-zohran-s-campaign-manager-here-s-what-the-ai-safety-1",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-NGnHe8EAsScC6R3Lm-ralph-page-on-live-music",
       "type": "update",
@@ -45574,82 +45622,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-14T07:06:31.625Z",
+      "checkedAt": "2026-11-14T11:23:51.537Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "9f011ce0-8ea0-47ad-acd4-b42318aba0e1",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-14T11:23:52.300Z",
+      "message": "检查11个公开入口，0个未完成，2条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "88e3fb0e-7f7f-4840-8a17-63d52b199d51",
       "mode": "discovery",
@@ -45991,13 +46046,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-11-02T06:56:10.886Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "240a453f-8675-4fb4-9015-40433885b6da",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-11-02T05:53:50.574Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
