@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T11:23:52.300Z",
+  "updatedAt": "2026-11-14T17:56:43.177Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,78 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-a3GE394ucG8guj5Sy-understanding-the-linear-representation-hypothesis",
+      "type": "update",
+      "title": "Understanding the Linear Representation Hypothesis",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T17:02:35.000Z",
+      "reviewedAt": "2026-11-14T17:56:42.716Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/a3GE394ucG8guj5Sy/understanding-the-linear-representation-hypothesis",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-jwCPQhLWbWnwMhHME-rl-reward-hack-auditing-for-chinese-ai-safety",
+      "type": "update",
+      "title": "RL Reward-Hack Auditing for Chinese AI Safety",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T13:04:10.000Z",
+      "reviewedAt": "2026-11-14T17:56:42.716Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/jwCPQhLWbWnwMhHME/rl-reward-hack-auditing-for-chinese-ai-safety",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-proLpz7k8XFLT5yaw-mathematicians-let-s-surf-this-wave",
+      "type": "update",
+      "title": "Mathematicians: Let’s Surf This Wave",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T12:42:05.000Z",
+      "reviewedAt": "2026-11-14T17:56:42.716Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/proLpz7k8XFLT5yaw/mathematicians-let-s-surf-this-wave",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-EMKRpxKswPZEbP8ey-datasets-determine-the-difficulty-of-interpretability",
       "type": "update",
@@ -45622,82 +45694,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-14T11:23:51.537Z",
+      "checkedAt": "2026-11-14T17:56:42.716Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "2988dea4-749b-4024-8307-f2be71471a9f",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-14T17:56:43.177Z",
+      "message": "检查11个公开入口，0个未完成，3条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "9f011ce0-8ea0-47ad-acd4-b42318aba0e1",
       "mode": "discovery",
@@ -46039,13 +46118,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-11-02T18:14:12.765Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "8e725657-7c53-48d4-966d-b20f12202e67",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-11-02T06:56:10.886Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
