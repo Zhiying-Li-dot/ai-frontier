@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T17:56:43.177Z",
+  "updatedAt": "2026-11-14T23:51:40.689Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,126 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-5rMRPZ4X5PziRHEQ9-don-t-use-neglected-as-a-synonym-for-useless",
+      "type": "update",
+      "title": "Don't Use \"Neglected\" as a Synonym for \"Useless\"",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T22:30:28.000Z",
+      "reviewedAt": "2026-11-14T23:51:40.149Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/5rMRPZ4X5PziRHEQ9/don-t-use-neglected-as-a-synonym-for-useless",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-uJma5Hygyj6bHwwSn-be-grateful-in-spite-of-your-suffering",
+      "type": "update",
+      "title": "Be Grateful in Spite of Your Suffering",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T22:16:53.000Z",
+      "reviewedAt": "2026-11-14T23:51:40.149Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/uJma5Hygyj6bHwwSn/be-grateful-in-spite-of-your-suffering",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-59QxAMsnbrEQur2Py-should-prices-sum-to-usd1-for-undecidable-sentences-1",
+      "type": "update",
+      "title": "Should prices sum to $1 for undecidable sentences?",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T21:38:39.000Z",
+      "reviewedAt": "2026-11-14T23:51:40.149Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/59QxAMsnbrEQur2Py/should-prices-sum-to-usd1-for-undecidable-sentences-1",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-Cssj22TretAQQajZ4-transcript-yudkowsky-and-irving-debate-scalable-oversight",
+      "type": "update",
+      "title": "Transcript: Yudkowsky & Irving debate scalable oversight",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T19:53:03.000Z",
+      "reviewedAt": "2026-11-14T23:51:40.149Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/Cssj22TretAQQajZ4/transcript-yudkowsky-and-irving-debate-scalable-oversight",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
+    {
+      "id": "lesswrong.com-posts-2zyskdas6TsL9dqNg-outer-space-is-not-consistently-big",
+      "type": "update",
+      "title": "Outer space is not consistently big",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-14T19:25:53.000Z",
+      "reviewedAt": "2026-11-14T23:51:40.149Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/2zyskdas6TsL9dqNg/outer-space-is-not-consistently-big",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-a3GE394ucG8guj5Sy-understanding-the-linear-representation-hypothesis",
       "type": "update",
@@ -45694,82 +45814,89 @@
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-14T17:56:42.716Z",
+      "checkedAt": "2026-11-14T23:51:40.149Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "92177f59-bdef-4f1c-8e4a-8738eb1d796d",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-14T23:51:40.689Z",
+      "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "2988dea4-749b-4024-8307-f2be71471a9f",
       "mode": "discovery",
@@ -46111,13 +46238,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-11-03T02:14:10.384Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "4baf9fa4-16af-4d3c-af46-89443dabb4e3",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-11-02T18:14:12.765Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
