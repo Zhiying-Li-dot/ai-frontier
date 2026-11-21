@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T07:47:15.860Z",
+  "updatedAt": "2026-11-21T12:32:34.319Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,30 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-SGiNxS6vLeffbWhqo-human-organisations-as-an-intuition-pump-for-ai-s-unit-of",
+      "type": "update",
+      "title": "Human organisations as an intuition pump for AI's unit of agency",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-21T10:22:12.000Z",
+      "reviewedAt": "2026-11-21T12:32:33.846Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/SGiNxS6vLeffbWhqo/human-organisations-as-an-intuition-pump-for-ai-s-unit-of",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-nCLhYmNdNMPkxxDN6-why-market-fit-is-different-for-healthcare-startups",
       "type": "update",
@@ -48568,112 +48592,95 @@
       "qualityNotes": "",
       "evidence": [],
       "priorWork": []
-    },
-    {
-      "id": "arxiv:2610.23056",
-      "type": "paper",
-      "title": "Thought Blocks: Non-Autoregressive Latent Communication for Multi-Agent Systems via Trajectory-to-State Compilation",
-      "originalTitle": "",
-      "category": "capabilities",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "reviewedAt": "2026-10-19T04:22:26.277Z",
-      "sourceName": "arXiv · 多智能体",
-      "sourceUrl": "https://arxiv.org/abs/2610.23056",
-      "summary": "",
-      "whyItMatters": "",
-      "method": "",
-      "results": "",
-      "limitations": [],
-      "readingMinutes": 5,
-      "tags": [],
-      "status": "awaiting-fulltext",
-      "sourceCoverage": "metadata-only",
-      "analysis": "",
-      "qualityNotes": "",
-      "evidence": [],
-      "priorWork": []
     }
   ],
   "sources": [
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-21T07:47:15.283Z",
+      "checkedAt": "2026-11-21T12:32:33.846Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "2f82646f-be73-4050-b4cf-ee5af27df9b9",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-21T12:32:34.319Z",
+      "message": "检查11个公开入口，0个未完成，7条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "5f5c6e24-b2f2-4bd1-9cb6-8eb653a25e41",
       "mode": "discovery",
@@ -49016,13 +49023,6 @@
       "status": "succeeded",
       "at": "2026-11-08T20:25:45.167Z",
       "message": "检查11个公开入口，0个未完成，9条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "d350e7a9-3a4a-4972-a04d-6aa351f97bab",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-11-08T15:05:26.161Z",
-      "message": "检查11个公开入口，0个未完成，5条新候选。全文不足的内容不出刊。"
     }
   ],
   "budget": {
