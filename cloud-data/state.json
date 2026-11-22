@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T06:36:04.558Z",
+  "updatedAt": "2026-11-22T07:33:38.866Z",
   "settings": {
     "depth": "technical",
     "maxDailyPapers": 4,
@@ -593,6 +593,30 @@
     }
   ],
   "inbox": [
+    {
+      "id": "lesswrong.com-posts-rEdEKoFsnGXityjcL-nuclear-may-have-had-bigger-problems-than-over-regulation",
+      "type": "update",
+      "title": "Nuclear may have had bigger problems than over-regulation",
+      "originalTitle": "",
+      "category": "frontier-safety",
+      "publishedAt": "2026-11-22T06:59:58.000Z",
+      "reviewedAt": "2026-11-22T07:33:38.222Z",
+      "sourceName": "LessWrong · 技术讨论",
+      "sourceUrl": "https://www.lesswrong.com/posts/rEdEKoFsnGXityjcL/nuclear-may-have-had-bigger-problems-than-over-regulation",
+      "summary": "",
+      "whyItMatters": "",
+      "method": "",
+      "results": "",
+      "limitations": [],
+      "readingMinutes": 5,
+      "tags": [],
+      "status": "awaiting-fulltext",
+      "sourceCoverage": "metadata-only",
+      "analysis": "",
+      "qualityNotes": "",
+      "evidence": [],
+      "priorWork": []
+    },
     {
       "id": "lesswrong.com-posts-89ag6LMRYkZcd9T4u-how-hard-to-optimize-for-experiencing-great-art",
       "type": "update",
@@ -48568,112 +48592,95 @@
       "qualityNotes": "",
       "evidence": [],
       "priorWork": []
-    },
-    {
-      "id": "arxiv:2610.22425",
-      "type": "paper",
-      "title": "Recoverability-Controlled Safety Miscalibration in Large Language Models",
-      "originalTitle": "",
-      "category": "application-security",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "reviewedAt": "2026-10-19T04:22:26.277Z",
-      "sourceName": "arXiv · 安全与隐私",
-      "sourceUrl": "https://arxiv.org/abs/2610.22425",
-      "summary": "",
-      "whyItMatters": "",
-      "method": "",
-      "results": "",
-      "limitations": [],
-      "readingMinutes": 5,
-      "tags": [],
-      "status": "awaiting-fulltext",
-      "sourceCoverage": "metadata-only",
-      "analysis": "",
-      "qualityNotes": "",
-      "evidence": [],
-      "priorWork": []
     }
   ],
   "sources": [
     {
       "id": "arxiv-ai",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cl",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-lg",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cr",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-ma",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "arxiv-cv",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 0,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "openai",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "deepmind",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "google-research",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 15,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "alignment-forum",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     },
     {
       "id": "lesswrong",
       "status": "ok",
-      "checkedAt": "2026-11-22T06:36:03.965Z",
+      "checkedAt": "2026-11-22T07:33:38.222Z",
       "count": 10,
       "message": "题录发现，不代表完成精读"
     }
   ],
   "runs": [
+    {
+      "id": "ad810073-7e86-4b5e-8f73-440479d2cb01",
+      "mode": "discovery",
+      "status": "succeeded",
+      "at": "2026-11-22T07:33:38.866Z",
+      "message": "检查11个公开入口，0个未完成，7条新候选。全文不足的内容不出刊。"
+    },
     {
       "id": "0c06e35a-9071-4ad6-a0e2-77dfac707fd3",
       "mode": "discovery",
@@ -49015,13 +49022,6 @@
       "mode": "discovery",
       "status": "succeeded",
       "at": "2026-11-09T18:42:37.099Z",
-      "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
-    },
-    {
-      "id": "89235afe-db66-48e0-92ed-ce6ade4bfff3",
-      "mode": "discovery",
-      "status": "succeeded",
-      "at": "2026-11-09T07:17:51.773Z",
       "message": "检查11个公开入口，0个未完成，20条新候选。全文不足的内容不出刊。"
     }
   ],
